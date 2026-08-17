@@ -1,0 +1,39 @@
+---
+title: "Historical STEM Figures Assignment Rubric"
+subtitle: "EDUC 315 - Howard University"
+author: "Nathan Alexander, PhD"
+institute: "School of Education"
+format: 
+  html: default
+  revealjs:
+    output-file: historical-figure.html
+    height: 900
+    width: 1600
+    smaller: true
+    slide-number: c/t #< collapsted/total
+    logo: "img/howard-logo.jpg"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa24)"
+    toc: false
+    echo: true
+    incremental: false
+---
+
+## Rubric for Historical STEM Figure Project
+
+This rubric will be used to assess your work on the Historical STEM Figure Project. It evaluates the research quality, content creation, STEM content, and educational application of your project.
+
+| Criteria | Exemplary (4) | Good (3) | Acceptable (2) | Needs Improvement (1) |
+|---------------|---------------|---------------|---------------|---------------|
+| **Research Quality** | Thorough research with diverse sources; all information is accurate and relevant to the figure's contributions. | Adequate research with mostly accurate information; some minor gaps in relevance or depth. | Limited research; some inaccuracies or irrelevant information present. | Minimal research; significant inaccuracies and irrelevant content. |
+| **Content Creation** | Highly creative and engaging format that effectively communicates the figure's significance; excellent use of visuals/audio. | Good format that communicates the figure's significance; some creativity but may lack engagement. | Basic format that meets requirements but lacks creativity or depth in presentation. | Poorly executed format that fails to engage; does not meet assignment requirements. |
+| **STEM Content** | Comprehensive coverage of the individual's STEM contributions; clear explanation of scientific/technological concepts; strong historical context provided. | Good coverage of STEM contributions; adequate explanation of concepts; some historical context provided. | Basic coverage of STEM contributions; limited explanation of concepts; minimal historical context. | Insufficient coverage of STEM contributions; unclear or missing explanations; lack of historical context. |
+| **Educational Application** | It is clear how the content can be effectively used with elementary students; activities are age-appropriate and engaging. | Offers some good examples of content application for elementary students; activities are mostly age-appropriate. | Provides basic examples of content use; some activities may not be suitable for elementary level. | Few or no examples of how to use content with elementary students; activities are not age-appropriate. |
+
+: Historical STEM Figure Project Rubric {.striped .hover}
+
+### Scoring Guide
+
+-   **Exemplary (4)**: Demonstrates exceptional understanding and execution of the criteria.
+-   **Good (3)**: Shows solid understanding and execution with minor areas for improvement.
+-   **Acceptable (2)**: Meets basic expectations but has significant areas for improvement.
+-   **Needs Improvement (1)**: Falls short of expectations in most areas.

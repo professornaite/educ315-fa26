@@ -1,0 +1,28 @@
+---
+title: "Mathematics Corner Activity Rubric"
+subtitle: "EDUC 315 - Howard University"
+author: "Nathan Alexander, PhD"
+institute: "School of Education"
+format: 
+  html: default
+  revealjs:
+    output-file: mathematics-corner.html
+    height: 900
+    width: 1600
+    smaller: true
+    slide-number: c/t
+    logo: "img/howard-logo.jpg"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
+    toc: false
+    echo: true
+    incremental: false
+---
+
+## Rubric for Mathematics Corner Activity
+
+| Criteria | 5 pts (Level 5) | 3 pts (Level 3) | 1 pt (Level 1) |
+|------------------|------------------|------------------|------------------|
+| **ENGAGE** | All of level 3 AND: Predicts students' questions and plans for individual learning needs. | All of level 1 AND: Uses students' background knowledge and interest to motivate the task with real-life examples. | Uses some strategies to uncover student thinking but makes minimal connections to prior knowledge. |
+| **EXPLORE** | All of level 3 AND: Offers open-ended tasks with multiple solution paths; students prepare evidence and contribute to discussions. | All of level 1 AND: Allows hands-on exploration and student decision-making; supports collaboration with multiple strategies and questions. | Task is one-dimensional with no variety; teacher fully prescribes steps; little support for engagement. |
+
+**Total Points: 10**

@@ -1,0 +1,135 @@
+---
+title: "Introduction to EDUC 315"
+subtitle: "Prin of Teaching Math & Sci II - Howard University"
+author: "Nathan Alexander, PhD"
+institute: "School of Education"
+format: 
+  html: default
+  revealjs:
+    output-file: module00-slides.html
+    height: 900
+    width: 1600
+    smaller: false
+    slide-number: c/t
+    logo: "img/howard-logo.jpg"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
+    toc: true
+    toc-depth: 3
+    echo: true
+    incremental: false
+---
+
+# Course description
+
+This course provides candidates with knowledge, skills, dispositions and pedagogy to deliver content-rich, rigorous mathematics and science instruction for African American and diverse urban learners in grades 4 – 6. Candidates will have opportunities to employ a variety of instructional strategies to integrate mathematics and science content and the Common Core State Standards through the Principles of Learning Mathematics and Science. Field-based experiences provide an opportunity for candidates to design, develop and implement evidence-based lessons in science and mathematics.
+
+This course has a particular emphasis on learning mathematics in K-6 school settings.
+
+# Instructor
+
+**Nathan Alexander, PhD**
+
+*School of Education*
+
+-   Department of Curriculum and Instruction
+-   Miner Building 122H
+
+*The Graduate School*
+
+-   Program in Applied Data Science and Analytics
+-   Annex III Room 208
+
+------------------------------------------------------------------------
+
+## Instructor contact details
+
+-   Office Hours:
+
+    -   Office location: Miner Building 122H (Curriculum and Instruction)
+
+    -   Monday and Wednesday after class or by appointment
+
+    -   Appointment Link: <https://nathanalexander.youcanbook.me/>
+
+-   Email: [nathan.alexander\@howard.edu](mailto:nathan.alexander@howard.edu)
+
+-   Course Site: <https://canvas.howard.edu/courses/61566>
+
+# Course goals
+
+-   Understand mathematics as learners and teachers, and reflect on how our experiences shape our views of mathematics and inform how we teach mathematics to others.
+
+-   Build skills in informal and formal mathematical reasoning and language, and explore how they shape our thinking, communication, and instruction in a classroom setting.
+
+-   Learn to analyze and construct mathematical arguments and connect them to teaching and learning scenarios that will improve your ability to design lessons and unit plans that:
+
+    -   Support students’ identities as "mathematical thinkers and doers"
+    -   Emphasize informal and formal reasoning and conceptual understanding
+    -   Integrate mathematics and science using targeted standards
+
+-   Apply theories and strategies in a classroom-based field experience
+
+# Overview of course modules
+
+## Module 1: Introduction to the Language of Mathematics
+
+This module sets the stage for our course by building our knowledge of the habits of mathematics, logical reasoning and the importance of informal learning as well as precision in mathematical learning. Topics will include:
+
+-   The basic elements of logic: propositions, connectives, and quantifiers
+-   How to structure mathematical arguments and proofs
+-   Use of precise definitions and symbols
+-   Transition from everyday reasoning to formal mathematical thinking
+
+## Module 2: Foundations of Mathematical Thinking
+
+This module will reinforce some of the essential skills that underlie all of our thinking about mathematics, and have us consider some of the ways that we can approach supporting mathematical thinking. Topics will include:
+
+-   Number sense and patterns
+-   Place value and structure of the number system
+-   Problem-solving strategies
+-   Connections between arithmetic and broader mathematical concepts
+
+## Module 3: Whole Number Operations and Computation
+
+This module will explore how we develop students' fluency with operations on whole numbers. Topics will include:
+
+-   Addition, subtraction, multiplication, and division
+-   Properties of operations (commutative, associative, distributive)
+-   Algorithms and mental computation strategies
+-   Estimation and reasoning about magnitude
+
+## Module 4: Fractions, Decimals, and Rational Numbers
+
+This module will explore how extend students' understanding of numbers beyond whole numbers. Topics will include:
+
+-   Representations of fractions and decimals
+-   Equivalence and comparison of rational numbers
+-   Operations with fractions and decimals
+-   Ratios, rates, and percentages in real-world contexts
+
+## Module 5: Geometry and Measurement
+
+This module will explore how we support students' knowledge of shapes, spatial reasoning, and their associated measurements. Topics will include:
+
+-   Properties of two- and three-dimensional figures
+-   Perimeter, area, surface area, and volume
+-   Coordinate geometry and transformations
+-   Units of measurement and precision
+
+## Module 6: Data Science and Probability
+
+This module will introduce data science and data literacy and how we think about chance and propbability. Topics will include:
+
+-   Collecting, representing, and interpreting data
+-   Measures of central tendency (mean, median, mode)
+-   Variability and distributions
+-   Basic probability concepts and applications
+
+## Module 7: Mathematical Modeling and Early Algebraic Thinking
+
+This module will connect our arithmetic reasoning with algebraic thinking to develop some early ideas in algebra. Topics include:
+
+-   Recognizing patterns and generalizations
+-   Expressions, equations, and inequalities
+-   Using variables to represent quantities
+-   Introduction to mathematical models for real-world problems

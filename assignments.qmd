@@ -1,0 +1,31 @@
+---
+title: "Assignments"
+subtitle: "Principles of Teaching Math and Science in Urban Classrooms II (Grades 4-6)"
+---
+
+### **Overview of course assignments**
+
+Our course assignments will be split between four assignment groups.
+
+Please see the detailed syllabus on our Canvas site for a more ordered list.
+
+| Assignment group | Assignment | Due date |
+|------------------------|------------------------|------------------------|
+| **Mathematical activities and lesson plans** | Mathematics corner activity | Sun Sept 7 |
+|  | Two-day lesson plan (in pairs) | Tue Oct 28 |
+|  | Mathematics unit outline (*initial* draft) | Sun Nov 16 |
+|  | Historical STEM figure activity | Mon Nov 24 |
+|  | Mathematics unit outline (*final* draft) | Friday Dec 5 |
+|  |  |  |
+| **Quizzes** (in class) | Quiz 1: Numbers and sets | Wed Aug 27 |
+|  | Quiz 2: Logic and related concepts | Wed Sept 10 |
+|  | Quiz 3: Quantity and operations | Wed Sept 24 |
+|  | Quiz 4: Structure and properties | Wed Oct 22 |
+|  | ~~Quiz 5: Space and geometry (objects, shape, representations)~~ | ~~Wed Nov 5~~ |
+|  | Quiz 5: Statistics and probability | Wed Nov 19 |
+|  |  |  |
+| **Midterm exam** (in class) |  | Wed Oct 8 |
+|  |  |  |
+| **Field placement log and other files/notes** | Excursion 1: National Portrait Gallery | Mon Sept 15 |
+|  | ~~Excursion 2: NMAAHC~~ | ~~Wed Nov 12~~ |
+|  | Field placement log due | Wed Dec 3 |

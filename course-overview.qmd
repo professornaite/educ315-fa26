@@ -1,0 +1,64 @@
+---
+title: "Course overview"
+subtitle: "Principles of Teaching Math and Science in Urban Classrooms II"
+---
+
+## A slightly more detailed overview.
+
+### Course description
+
+Provides candidates with knowledge, skills, dispositions and pedagogy to deliver content-rich, rigorous mathematics and science instruction for African American and diverse urban learners in grades 4-6.Candidates will have opportunities to employ a variety of instructional strategies to integrate mathematics and science content and the Common Core State Standards through the Principles of Learning Mathematics and Science. Field-based experiences provide an opportunity for candidates to design, develop and implement evidence-based lessons in science and mathematics.
+
+Click [here](https://catalogue.howard.edu/sites/default/files/pdf/class/educ-315.pdf?1697638771) to see the Howard course catalog description.
+
+### **Syllabus**
+
+A high-level view of the course.
+
+*Please note: this section is only a summary of our syllabus.* The full syllabus is available on our Canvas site [here](https://canvas.howard.edu/courses/61566){target="_blank"}. I have summarized some important items found on the syllabus below:
+
+**Instructor**: Nathan Alexander, PhD
+
+-   Contact information:
+
+    **Email**: [nathan.alexander\@howard.edu](mailto:nathan.alexander@howard.edu)
+
+    **Office hours**: By appointment at <https://nathanalexander.youcanbook.me>
+
+-   Course information:
+
+    **Course meeting times**: Mondays and Wednesdays at 1:10pm - 3pm EST
+
+    **Course meeting location**: MIN 124
+
+### **Canvas**
+
+Canvas is the go-to for submissions, and where you can find readings and assignment rubrics. [Here](https://canvas.howard.edu/courses/53402) is another link to Canvas, I'll try to drop these as often as possible. Two things about Canvas: it holds your **assignments** and **readings**.
+
+#### Canvas has your course assignments
+
+::: incremental
+The four categories for **assignments** in this course are as follows:
+
+-   Mathematical activities and lesson plans (50 points)
+-   Quizzes (20 points)
+-   Midterm exam (20 points)
+-   Field placement log and other files/notes (10 points)
+:::
+
+### **A few other items**
+
+#### Expectations
+
+This course will help you gain both a conceptual and theoretical understanding of the various concepts we will explore, and then a technical understanding of the complex issues that relate to them. We also want to communicate our ideas. These can be difficult tasks. But I encourage you to explore and to be creative, and to take chances. Errors should mostly remind us that there is always the backspace button. Below are some general **expectations** to keep us all moving forward as a community:
+
+::: incremental
+-   Communicate early and often
+-   Show up to class on time
+-   Do not schedule other meetings during class time
+-   No late work will be accepted without prior discussion
+:::
+
+### **Course site** (this page!)
+
+You can return to this page to remind yourself of the four parts of our course, especially when we dive deep into specific projects. This page will remain static (it will not be updated), so use it as an archive that you can return to; start in this page position if you have questions about the schedule, procedures, expectations (above) ...then assignments (next).

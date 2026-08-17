@@ -1,0 +1,321 @@
+---
+title: "Module 3: Whole Number Operations"
+subtitle: "EDUC 315 - Howard University"
+author: "Nathan Alexander, PhD"
+institute: "School of Education"
+format: 
+  pdf: 
+    toc: true
+    number-sections: true
+    colorlinks: true
+  html: default
+  revealjs:
+    output-file: module03-slides.html
+    height: 900
+    width: 1600
+    smaller: true
+    slide-number: c/t #< collapsted/total
+    logo: "img/howard-logo.jpg"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
+    toc: false
+    echo: true
+    incremental: false
+---
+
+## Module Overview
+
+This module explores the mathematical concepts focusing on whole number operations, with a specific focus on quantity and operations within the context of elementary mathematics. The module covers the historical development of arithmetic operations, introduces the Concrete-Representational-Abstract (CRA) approach to teaching mathematics, delves into the properties of basic arithmetic operations, and examines the relationships between different operations. By the end of this module, you will have a comprehensive understanding of quantity and operations to effectively deal with various mathematical representations.
+
+------------------------------------------------------------------------
+
+## Discussion of Properties
+
+### Commutative Property
+
+The order of addition or multiplication does not affect the result:
+
+$a + b = b + a$
+
+$a \times b = b \times a$
+
+------------------------------------------------------------------------
+
+### Associative Property
+
+Changing grouping does not affect the sum or product:
+
+$(a + b) + c = a + (b + c)$
+
+$(a \times b) \times c = a \times (b \times c)$
+
+------------------------------------------------------------------------
+
+### Distributive Property
+
+Multiplication distributes over addition:
+
+$a \times (b + c) = a \times b + a \times c$
+
+------------------------------------------------------------------------
+
+### Identity Property
+
+Adding zero or multiplying by one leaves the number unchanged:
+
+$a + 0 = a$
+
+$a \times 1 = a$
+
+------------------------------------------------------------------------
+
+### Zero Property of Multiplication
+
+Multiplying any number by zero results in zero:
+
+$a \times 0 = 0$
+
+------------------------------------------------------------------------
+
+# Quantity and Operations
+
+::: {.callout-note icon="false"}
+## Quantity
+
+A quantity is a property or characteristic that can be measured or counted. In mathematics, it refers to an amount that can be expressed as a number or a numerical value.
+:::
+
+Key points:
+
+-   Quantities can be discrete (countable) or continuous (measurable)
+-   Quantities are often associated with units of measurement
+-   Quantities form the basis for mathematical operations and comparisons
+
+Examples:
+
+-   The number of apples in a basket (discrete quantity)
+-   The volume of water in a container (continuous quantity)
+-   The temperature of a room (measurable quantity)
+-   The speed of a car (derived quantity)
+
+------------------------------------------------------------------------
+
+::: {.callout-note icon="false"}
+## Operation
+
+An operation is a mathematical process or action performed on one or more quantities to produce a new quantity or result. It is a rule for combining mathematical objects or values.
+:::
+
+-   Operations transform quantities into new quantities
+-   They follow specific rules and properties (e.g., commutative, associative)
+-   Understanding operations is crucial for problem-solving and algebraic thinking
+
+::: callout-tip
+### Addition (sum)
+
+Combining two or more quantities (e.g., 5 + 3 = 8)
+:::
+
+::: callout-tip
+### Subtraction (difference)
+
+Finding the difference between quantities (e.g., 10 - 4 = 6)
+:::
+
+::: callout-tip
+### Multiplication (product)
+
+Repeated addition or scaling (e.g., 3 × 4 = 12)
+:::
+
+::: callout-tip
+### Division (quotient)
+
+Distributing a quantity into equal parts (e.g., 15 ÷ 3 = 5)
+:::
+
+------------------------------------------------------------------------
+
+::: callout-tip
+### Exponentiation (exponent)
+
+Repeated multiplication (e.g., 2³ = 8)
+:::
+
+::: callout-tip
+### Root extraction (root)
+
+Inverse of exponentiation (e.g., $\sqrt{16} = 4$)
+:::
+
+## Concrete-Representational-Abstract (CRA)
+
+The Concrete-Representational-Abstract (CRA) process is an instructional approach in mathematics that helps students develop a deeper understanding of mathematical concepts by progressing through three stages:
+
+1.  **Concrete** Stage:
+
+-   Students use physical, hands-on objects to model mathematical concepts
+-   Examples include base-10 blocks, counters, fraction bars, or algebra tiles
+-   This stage allows students to manipulate tangible objects to solve problems
+
+![Image from CRA methods by the Mathematics Initiative at www.pattan.net](/img/mod03/cra-algebra-tiles-adding-integers.png){width="80%"}
+
+2.  **Representational** (or Pictorial) Stage:
+
+-   Students transition to using visual representations of the concrete objects
+-   This may involve drawings, diagrams, or other pictorial models
+-   Examples include number lines, bar models, or sketches of manipulatives
+
+![Image from CRA methods by the Mathematics Initiative at www.pattan.net](/img/mod03/cra-base-ten-blocks-place-value.png){width="80%"}
+
+3.  **Abstract** Stage:
+
+-   Students work with abstract symbols and notation
+-   This includes numbers, variables, and mathematical symbols (+, -, x, ÷)
+-   Students apply their understanding to solve problems using standard algorithms
+
+![Image from CRA methods by the Mathematics Initiative at www.pattan.net](/img/mod03/cra-chips-equivalent-fractions.png){width="80%"}
+
+The CRA approach deepens mathematical understanding and help students internalize abstract concepts by first grounding them in concrete experiences.
+
+------------------------------------------------------------------------
+
+# Sum and Difference
+
+## Algebra tiles
+
+Depending on the grade of instruction, algebra tiles can be used as a concrete way to express various operations, such as the sum and difference.
+
+![Introducing the tiles. From calculate.org.au](/img/mod03/algebra-tile-0.png)
+
+![Zero-sum representation. From calculate.org.au](/img/mod03/algebra-tile-1.png)
+
+![Modeling integers. From calculate.org.au](/img/mod03/algebra-tile-2.png)
+
+![Addition and subtraction of integers. From calculate.org.au](/img/mod03/algebra-tile-3.png)
+
+------------------------------------------------------------------------
+
+# Product and Quotient
+
+Fraction tiles provide a great way to review and extend students' understanding of the concepts of multiplication and division.
+
+![EDUC 315 fraction tiles](/img/mod03/fraction-tiles-1.jpeg)
+
+![EDUC 315 fraction tiles](/img/mod03/fraction-tiles-2.jpeg)
+
+### Assessing multiple skills
+
+Multiplication (product) with fractions (quotients)
+
+![](/img/mod03/multiplying-fractions.jpg)
+
+------------------------------------------------------------------------
+
+# Exponents and Roots
+
+There are many ways to teach exponents and roots:
+
+## Teaching Exponents
+
+**Pattern Blocks**
+
+Pattern blocks can be used to visually demonstrate exponents. For example:
+
+-   Use one triangle to represent $1 \times 1$
+-   Four triangles together represent $2 \times 2$
+-   Nine triangles together represent $3 \times 3$
+
+![](/img/mod03/pattern-blocks.jpg)
+
+Draw the pattern for $4 \times 4$ and $5 \times 5$.
+
+These patterns helps students visualize the quantity of exponents but we want to also show them representations of exponents as repeated multiplication; we can use base-ten blocks to extend their understanding.
+
+**Base Ten Blocks**
+
+Base ten blocks work well for teaching powers of 10:
+
+-   A unit cube represents $10^0 = (1)$
+-   A rod represents $10^1 = 10 = (10)$
+-   A flat represents $10^2 = 10 x 10 = (100)$
+-   A large cube represents $10^3 = 10 x 10 x 10 = (1000)$
+
+**Grid Paper**
+
+Grid paper allows students to draw squares and rectangles to represent exponents:
+
+-   A $2 x 2$ square represents $2^2$
+-   A $3 x 3$ square represents $3^2$
+-   A $2 x 2 x 2$ cube represents $2^3$
+
+![](/img/mod03/grid-paper.jpg)
+
+Draw the figures representing $3^3$ and $4^2$.
+
+## Teaching Roots
+
+**Algebra Tiles**
+
+Algebra tiles are also good for teaching square roots:
+
+-   Use the square tiles to build perfect square numbers (1, 4, 9, 16, etc.)
+-   The side length of the square represents the square root
+
+For example, a $3x3$ square of tiles has an area of $9$, so the square root of $9$ is $3$.
+
+**Grid Paper**
+
+Grid paper can be used to estimate non-perfect square roots:
+
+-   Draw a square with the given area (e.g. 17)
+-   Count the side length to estimate the square root
+-   Refine by adding partial squares
+
+This provides a visual model for estimating irrational square roots.
+
+![](/img/mod03/square-root-number-line.jpg)
+
+**Number Lines**
+
+Use a number line to place square roots between perfect squares:
+
+-   Mark perfect squares (1, 4, 9, 16, 25, etc.)
+-   Estimate locations of other square roots between them
+
+This helps students understand square roots as numbers between integers.
+
+We can use manipulatives to build conceptual understanding before moving to procedures. Allow students to explore and discover patterns through hands-on activities. Gradually connect the concrete models to symbolic notation as students gain understanding.
+
+------------------------------------------------------------------------
+
+# STEM figures and history
+
+Incorporating history into your mathematics lessons provide an opportunity for interdisciplinary learning, and it encourages students to see mathematics in action through real-world examples.
+
+## Ancestral mathematics
+
+![Ancestral mathematics activity by Dr. Nathan Alexander. Adapted from 'Ancestral Mathematics' meme.](/img/mod03/ancestral-mathematics.jpg){width="50%"}
+
+Using the image above as a sample, outline an *Ancestral Mathematics* class activity and create or modify the worksheet to follow along with your activity.
+
+## Historical STEM Figures
+
+This module closes with the identification of a historical figure in STEM.
+
+### Objective
+
+Research a historical STEM figure and create engaging content to showcase their contributions. The historical figure should showcase the growing diversity of a host of identities, cultures, and backgrounds represented in STEM.
+
+### Procedures
+
+-   *Museum visit* (75 minutes): Smithsonian Museum exhibit. Please take notes on interesting STEM figures and exhibits.
+
+-   *Figure selection and background research*: Choose a historical STEM figure based on museum inspiration. Conduct additional research using archival resources and online databases.
+
+-   *Content creation*: Students create content about their chosen figure in one of the following formats: Detailed video presentation (e.g., Tiktoc), Visual infographic (e.g., Canva), Interactive digital timeline, Podcast-like episode, Digital exhibit
+
+-   *Peer review*: Students your work with classmates for feedback. Make final adjustments based on peer feedback.
+
+-   *Presentation* (5 minutes): Develop a 5-minute presentation in the style that you would present it to your student. Present finished content to the class as if you were in front of your future students.
+
+![Image from [rif.org](https://www.rif.org/literacy-central/sustainable-futures/careers-in-stem){target="_blank"}](/img/mod03/historical-figures.png)

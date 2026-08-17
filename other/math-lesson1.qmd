@@ -1,0 +1,45 @@
+---
+title: "Mathematics Lesson Rubric"
+subtitle: "EDUC 315 - Howard University"
+author: "Nathan Alexander, PhD"
+institute: "School of Education"
+format: 
+  html: default
+  revealjs:
+    output-file: math-lesson.html
+    height: 900
+    width: 1600
+    smaller: true
+    slide-number: c/t #< collapsted/total
+    logo: "img/howard-logo.jpg"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
+    toc: false
+    echo: true
+    incremental: false
+---
+
+You may find a downloadable copy [here](https://www.dropbox.com/scl/fi/txz80drh4dbhqktnllihy/EDUC-315-Math-Lesson-Plan-Rubric.pdf?rlkey=7uobnp2see08l0na65zsmeazu&dl=0).
+
+## EDUC 315 Lesson Plan Rubric
+
+| Criteria | Standards | 1 Needs Improvement | 2 Emergent | 3 Proficient | 4 Exemplary |
+|------------|------------|------------|------------|------------|------------|
+| **Lesson Objectives and Goals** | CAEP K-6 3c, NCTM 4 | The candidate does not identify performance-based objectives and appropriate curriculum goals that are relevant to learners. | The candidate identifies objectives and curriculum goals but they are not performance-based or appropriate for subject and/or grade level. | The candidate identifies performance-based objectives and appropriate curriculum goals and they are appropriate for subject and/or grade level. | The candidate identifies well-developed, performance-based objectives, appropriate curriculum goals that are appropriate for subject and/or grade level; correctly formulated; and addressed all domains. |
+| **State Standards** | NCTM 2 | The candidate does not identify national/state/local standards that align with the objectives or the standards are not appropriate for curriculum goals or are not relevant to learners. | The candidate identifies national/state/local standards but the standards are not aligned with the objectives and/or marginally relevant to learners. | The candidate identifies national/state/local standards that are aligned with the objectives and relevant to learners. | The candidate identifies national/state/local standards that are clearly aligned with the objectives and relevant to learners. |
+| **Sequencing and Pacing** | CAEP K-6 2b, CAEP K-6 4b, CAEP K-6 4c, NCTM 4 | The candidate does not plan for appropriate sequencing and pacing of learning experiences. Tasks, methods, strategies are not stated. | The candidate plans for appropriate sequencing and pacing of learning experiences; but tasks, methods and strategies are not stated and/or not appropriate or effective for the lesson. | The candidate plans for appropriate sequencing and pacing of learning experiences; and all tasks, methods, and strategies are stated and/or are appropriate and effective for the lesson | The candidate plans for appropriate sequencing and pacing of learning experiences; tasks, methods and strategies include a variety of creative, active learning, instructional strategies that address learner differences to maximize learning. |
+| **Learning Differences** | CAEP K-6 3d | Artifact(s) do not show sufficient evidence of an understanding of learner differences. The candidate's lesson plan does not provide evidence of accommodations to differentiate instruction for individuals and groups of learners. | Artifact(s) show evidence of a limited understanding of learner differences. The candidate's lesson plan provides evidence of an effort to meet student's learning goals, and attempts accommodations to differentiate instruction for individuals and groups of learners. | Artifact(s) show evidence of an adequate understanding of learner differences. The candidate's lesson plan provides evidence of successfully meeting each student's learning goals, and successfully makes accommodations to differentiate instruction for individuals and groups of learners. | Artifact(s) show evidence of a thorough understanding of learner differences and links appropriate examples of how the candidate applies this competency. The candidate's lesson plan provides evidence of successfully meeting each student's learning goals, and successfully makes a variety of accommodations to differentiate instruction for individuals and groups of learners. |
+| **Learning Environments** | CAEP K-6 1c, NCTM 6a, NCTM 4 | Artifact(s) do not show sufficient evidence of an understanding of learning environments. | Artifact(s) show evidence of a limited understanding of learning environments. | Artifact(s) show evidence of an adequate understanding of learning environments. | Artifact(s) show evidence of thorough understanding of learning environments and links appropriate examples of how the candidate applies this competency. |
+| **Content Knowledge** | CAEP K-6 2b, NCTM 2, NCTM 4 | Artifact(s) do not show sufficient evidence of content area knowledge. | Artifact(s) show evidence of limited content area knowledge. | Artifact(s) show evidence of adequate content area knowledge. | Artifact(s) show evidence of thorough content area knowledge. |
+| **Instructional Strategies** | CAEP K-6 4a, AMTE C.3.1, NCTM 4 | Artifact(s) do not show sufficient evidence of the knowledge and ability to use a variety of instructional practices. | Artifact(s) show evidence of limited knowledge and ability to use a variety of instructional practices. | Artifact(s) show evidence of adequate knowledge and ability to use a variety of instructional practices. | Artifact(s) show evidence of exceptional knowledge and ability to use a variety of instructional practices |
+| **Prior Knowledge** | CAEP K-6 2b, NCTM 3 | The candidate does not plan an opening activity that stimulates learner reflection on prior content knowledge, links new concepts to familiar concepts, nor makes connections to learners' experiences. | The candidate plans an opening activity that used learner prior content knowledge, but does not link new concepts to familiar concepts, or make connections to learners' experiences. | The candidate plans an opening activity that stimulates learner reflection on prior content knowledge, links new concepts to familiar concepts, and makes connections to learners' experiences. | The candidate plans an opening activity that actively stimulates learner reflection on prior content knowledge, effectively links new concepts to familiar concepts, and creatively makes connections to learners' experiences. |
+| **Assessment Use** | CAEP K-6 3c, NCTM 5 | The candidate does not use assessment as closure to check for comprehension and student knowledge and skills. | The candidate uses assessment as closure to demonstrate knowledge and skills to check for comprehension but they are inappropriate and/or ineffective. | The candidate uses appropriate assessment strategies as closure to demonstrate knowledge and skills to check for understanding. | The candidate uses creative appropriate assessments for closure to demonstrate knowledge and skills to check for comprehension. |
+| **Assessment Design** | CAEP K-6 3c, NCTM 5 | The candidate's lesson design does not include post-assessments strategies or methods. | The candidate's lesson design includes post-assessments strategies or methods but the strategies/methods were not effective. | The candidate's lesson design includes post-assessments that were appropriate to effectively assess student learning. | The candidate's post-assessment matches learning objectives and includes creative strategies to effectively assess student learning. |
+
+: EDUC 315 Lesson Plan Project Rubric {.striped .hover}
+
+## Scoring Guide
+
+-   **4 Exemplary**: Demonstrates exceptional understanding and execution of the criteria.
+-   **3 Proficient**: Shows solid understanding and execution with minor areas for improvement.
+-   **2 Emergent**: Meets basic expectations but has significant areas for improvement.
+-   **1 Needs Improvement**: Falls short of expectations in most areas.

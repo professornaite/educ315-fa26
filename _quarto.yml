@@ -1,0 +1,92 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II"
+  description: "Course site for EDUC 315 at Howard University"
+  site-url: "https://educ315-fa26.github.io"
+  
+  repo-url: "https://github.com/professornaite/educ315-fa26/"
+  
+  open-graph: true
+
+  page-footer:
+    right: "This page was built by Nathan N. Alexander, PhD in [Quarto](https://quarto.org/)"
+    left: "&copy; Copyright 2026, Nathan N. Alexander"
+    background: "#ccb6b1"
+   
+  sidebar:
+    background: "#ccb6b4"
+    logo: "img/gladys-west.png"
+    pinned: true
+    align: center
+    tools: 
+      - icon: github
+        href: https://professornaite.github.io/educ315-fa26/
+        text: "GitHub page"
+      - icon: code-square
+        href: https://canvas.howard.edu/courses/70143
+        text: "Canvas site"
+  
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:  
+    - section: "Course information"
+      contents:
+        - href: index.qmd
+          text: Calendar
+        - href: course-overview.qmd
+          text: Overview
+        - href: assignments.qmd
+          text: Assignments
+        - href: who.qmd
+          text: Site photo
+    - section: "Modules"
+      contents:
+        - href: modules/module00.qmd
+          text: Overview
+        - href: modules/module01.qmd
+          text: Module 1
+        - href: modules/module02.qmd
+          text: Module 2
+        - href: modules/module03.qmd
+          text: Module 3
+        - href: modules/module04.qmd
+          text: Module 4
+        - href: modules/module05.qmd
+          text: Module 5
+        - href: modules/module06.qmd
+          text: Module 6
+    - section: "Rubrics"
+      contents:
+        - href: other/math-corner.qmd
+          text: Math corner activity
+        - href: other/math-lesson1.qmd
+        - href: other/historical.qmd
+          text: Historical STEM figure
+    - section: "Field experience"
+      contents:
+        - href: field/expectations.qmd
+          text: Expectations
+        - href: field/weekly.qmd
+          text: Weekly schedules
+
+format:
+  html:
+    theme:
+      light: [spacelab, style/data202.scss]
+      dark: [spacelab, style/data202.scss, style/theme-dark.scss]
+    mainfont: "Atkinson Hyperlegible"
+    callout-appearance: simple
+    colorlinnks: true
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+
+execute: 
+  freeze: auto
+    
+editor: visual

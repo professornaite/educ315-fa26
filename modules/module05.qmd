@@ -1,0 +1,185 @@
+---
+title: "Module 5: Lesson planning and assessment"
+subtitle: "EDUC 315 - Howard University"
+author: "Nathan Alexander, PhD"
+institute: "School of Education"
+format: 
+  html: default
+  revealjs:
+    output-file: module05-slides.html
+    height: 900
+    width: 1600
+    smaller: true
+    slide-number: c/t #< collapsted/total
+    logo: "img/howard-logo.jpg"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
+    toc: false
+    echo: true
+    incremental: false
+---
+
+### Module Overview
+
+This module focuses on developing engaging and effective mathematics lessons for elementary students. We'll explore creative teaching methods, organization of standards and activities, and strategies for improving assessments, particularly in the context of high-stakes testing.
+
+### Goals for the module
+
+1.  Develop creative approaches to teaching mathematics that excite and engage young learners.
+2.  Learn to effectively organize standards, lesson activities, and assessments.
+3.  Improve assessment practices, especially in preparation for high-stakes testing.
+
+------------------------------------------------------------------------
+
+# Activity
+
+Using Census data to make sense of the cities where we
+
+Create a census api key
+
+Use your google account on posit.co to create a RStudio project
+
+We will use your census api key to create a series of maps of the city where you want to teach
+
+Identify two census variables that you want to understand about the geospatial districution of those variables.
+
+Save your map and provide a .Rmd file to .html on how what you found will inform your teaching
+
+Option to create a teaching brief (.Rmd file to .html) on the city context based on your variables and suggestions for others who will live in the city as FINAL PROJECT.
+
+# Lecture and Discussion
+
+# Share
+
+## Creative Methods in Mathematics Teaching
+
+::: {.callout-note icon="false"}
+Engaging students in mathematics requires innovative approaches that make abstract concepts tangible and exciting.
+:::
+
+### Examples of Creative Teaching Methods:
+
+1.  **Math Storytelling**: Integrate mathematical concepts into narratives.
+
+    -   Example: "The Great Shape Adventure" - a story where geometric shapes are characters solving problems.
+
+2.  **Gamification**: Turn math lessons into games.
+
+    -   Example: "Fraction Bingo" or "Multiplication Race"
+
+3.  **Hands-on Manipulatives**: Use physical objects to represent mathematical concepts.
+
+    -   Example: Using Lego bricks for addition and subtraction
+
+4.  **Real-world Applications**: Connect math to everyday situations.
+
+    -   Example: Planning a class party budget
+
+5.  **Technology Integration**: Use interactive apps and software.
+
+    -   Example: Geogebra for geometry exploration
+
+------------------------------------------------------------------------
+
+![](/img/mod05/math-lesson.jpg)
+
+## Organizing Standards and Lesson Activities
+
+::: {.callout-note icon="false"}
+Effective lesson planning aligns standards with engaging activities and clear learning objectives.
+:::
+
+### Steps for Organizing a Math Lesson:
+
+1.  **Identify the Standard**:
+
+    -   Example: CCSS.MATH.CONTENT.3.NF.A.1 - Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts.
+
+2.  **Set Clear Objectives**:
+
+    -   Example: "By the end of the lesson, students will be able to represent and explain fractions using visual models."
+
+3.  **Plan Engaging Activities**:
+
+    -   Opening: Fraction scavenger hunt in the classroom
+
+    -   Main Activity: Creating fraction art with colored paper
+
+    -   Closure: Peer teaching of fraction concepts
+
+4.  **Incorporate Multiple Representations**:
+
+    -   Visual: Fraction circles and number lines
+
+    -   Kinesthetic: Folding paper to show fractions
+
+    -   Symbolic: Writing fractions in numeric form
+
+5.  **Differentiation Strategies**:
+
+    -   Provide fraction tiles for struggling students
+
+    -   Challenge advanced students with equivalent fractions
+
+------------------------------------------------------------------------
+
+![](/img/mod05/math-lesson-2.jpg)
+
+## Improving Assessments for Elementary Mathematics
+
+::: {.callout-note icon="false"}
+Effective assessment in mathematics goes beyond traditional testing, especially in preparation for high-stakes exams.
+:::
+
+![](/img/mod05/testing.png)
+
+### Strategies for Improved Math Assessments:
+
+1.  **Formative Assessment Techniques**:
+
+    -   Exit tickets: Quick problem-solving at lesson's end
+
+    -   Think-Pair-Share: Students discuss solutions with peers
+
+    -   Digital polls: Real-time feedback on concept understanding
+
+2.  **Performance-Based Assessments**:
+
+    -   Math projects: Design a playground using geometric shapes
+
+    -   Math journals: Students explain their problem-solving process
+
+3.  **Differentiated Assessments**:
+
+    -   Tiered assignments: Varying complexity levels
+
+    -   Choice boards: Students select from assessment options
+
+4.  **Test Preparation Strategies**:
+
+    -   Regular practice with standardized question formats
+
+    -   Teaching test-taking strategies (e.g., eliminating wrong answers)
+
+    -   Stress-reduction techniques for test anxiety
+
+5.  **Technology-Enhanced Assessments**:
+
+    -   Adaptive online quizzes
+
+    -   Virtual manipulatives in digital assessments
+
+------------------------------------------------------------------------
+
+# Teaching Framework
+
+![](/img/mod05/danielson-framework-clusters.png)
+
+# Lesson Plan Templates
+
+Click the links below to access the templates. These can also be found on Canvas.
+
+-   [5E Lesson Plan Template](/files/5E-lesson-plan-template.pdf){target="_blank"}
+
+-   [Weekly Lesson Plan Template](/files/weekly-lesson-plan-template.pdf){target="_blank"}
+
+-   [Danielson Framework Template](/files/danielson-framework-lesson-plan-template.pdf){target="_blank"}

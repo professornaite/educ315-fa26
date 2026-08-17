@@ -1,0 +1,27 @@
+---
+title: "Welcome to EDUC 315"
+subtitle: "Principles of Teaching Mathematics and Science in Urban Classrooms II"
+---
+
+This is the companion site for EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by [Professor Nathan Alexander](https://professornaite.github.io){target="_blank"}. This site will serve as a <u>companion</u> to our [Canvas site](https://canvas.howard.edu/courses/70143){target="_blank"} and support you with questions relevant to teaching mathematics. Let me know if you see any errors.
+
+# Weekly Schedule
+
+| Week | Dates | Topics | Assignments $\textit{\&}$ Notes |
+|:-------------:|:---------------------|:--------------|:-------------------|
+| 1 | Aug 17 <br> Aug 19 | [**Introduction to EDUC 315**](modules/module00.qmd)<br>Course overview; number line; sets of numbers | Mathematical coloring book |
+| 2 | Aug 24 <br> Aug 26 | [**Module 1: Language of Mathematics**](modules/module01.qmd)<br>Sets, union, intersection; continuation | Number lines<br>Quiz 1 |
+| 3 | Aug 31 <br> Sep 2 | [**Module 1: Logic and proofs**](modules/module01.qmd)<br>CRA approach |  |
+| 4 | Sep 7\* <br> Sep 9 | [**Module 2: Foundations of Mathematical Thinking**](modules/module02.qmd)<br>Polya’s 4-step method | \*No class: Labor Day<br>Quiz 2 |
+| 5 | Sep 14 <br> Sep 16 | Excursion 1: National Portrait Gallery<br>Math activity rotations | Math corner activity |
+| 6 | Sep 21 <br> Sep 23 | [**Module 3: Properties**](modules/module03.qmd)<br>Properties and proof | <br>Quiz 3 |
+| 7 | Sep 28 <br> Sep 30 | [**Module 3: Whole Number Operations**](modules/module03.qmd)<br>Mathematical thinking | Fraction tiles activity |
+| 8 | Oct 5 <br> Oct 7 | [**Module 4: Strands of proficiency**]()<br>Midterm Exam (in-class) | <br>Midterm Exam |
+| 9 | Oct 12\* <br> Oct 14 | [**Module 4: Strands of proficiency**](modules/module04.qmd)<br>Lesson planning in mathematics | \*No class: Indigenous Peoples’ Day |
+| 10 | Oct 19 <br> Oct 21 | [**Module 5: Lesson planning**]() | <br>Quiz 4 |
+| 11 | Oct 26 <br> Oct 28 | [**Module 5: Lesson planning**]() | <br>Lesson plan assignment |
+| 12 | Nov 2 <br> Nov 4 | [**Math lesson presentations**]() | <br>Quiz 5 |
+| 13 | Nov 9 <br> Nov 11 | [**Module 6: Statistics** <br> **Probability**](modules/module06.qmd) |  |
+| 14 | Nov 16 <br> Nov 18 | [**Module 7: Mathematical Modeling**](modules/module07.qmd)<br>Leveraging real-world data | Mathematics unit outline<br>Quiz 6 |
+| 15 | Nov 23 <br> Nov 25 | Closing: Classgiving Potluck & reflections<br>Thanksgiving (No class) | Historical STEM figure |
+| 16 | Nov 30 <br> Dec 2 | Reading period (no class) | Field placement log due |
