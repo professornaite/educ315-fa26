@@ -16,7 +16,7 @@ format:
     smaller: true
     slide-number: c/t #< collapsted/total
     logo: "img/howard-logo.jpg"
-    footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa26)"
     toc: false
     echo: true
     incremental: false

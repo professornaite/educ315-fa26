@@ -12,7 +12,7 @@ format:
     smaller: false
     slide-number: c/t
     logo: "img/howard-logo.jpg"
-    footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa26)"
     toc: true
     toc-depth: 3
     echo: true
@@ -53,7 +53,7 @@ This course has a particular emphasis on learning mathematics in K-6 school sett
 
 -   Email: [nathan.alexander\@howard.edu](mailto:nathan.alexander@howard.edu)
 
--   Course Site: <https://canvas.howard.edu/courses/61566>
+-   Course Site: [https://canvas.howard.edu/courses/](https://canvas.howard.edu/courses/61566){.uri}[70143](https://canvas.howard.edu/courses/70143)
 
 # Course goals
 
@@ -73,7 +73,7 @@ This course has a particular emphasis on learning mathematics in K-6 school sett
 
 ## Module 1: Introduction to the Language of Mathematics
 
-This module sets the stage for our course by building our knowledge of the habits of mathematics, logical reasoning and the importance of informal learning as well as precision in mathematical learning. Topics will include:
+This module sets the stage for our course by building our knowledge of the habits of mathematics, logical reasoning and the importance of informal learning as well as precision in mathematical learning.
 
 -   The basic elements of logic: propositions, connectives, and quantifiers
 -   How to structure mathematical arguments and proofs
@@ -82,7 +82,7 @@ This module sets the stage for our course by building our knowledge of the habit
 
 ## Module 2: Foundations of Mathematical Thinking
 
-This module will reinforce some of the essential skills that underlie all of our thinking about mathematics, and have us consider some of the ways that we can approach supporting mathematical thinking. Topics will include:
+This module will reinforce some of the essential skills that underlie all of our thinking about mathematics, and have us consider some of the ways that we can approach supporting mathematical thinking.
 
 -   Number sense and patterns
 -   Place value and structure of the number system
@@ -91,7 +91,7 @@ This module will reinforce some of the essential skills that underlie all of our
 
 ## Module 3: Whole Number Operations and Computation
 
-This module will explore how we develop students' fluency with operations on whole numbers. Topics will include:
+This module will explore how we develop students' fluency with operations on whole numbers.
 
 -   Addition, subtraction, multiplication, and division
 -   Properties of operations (commutative, associative, distributive)
@@ -100,7 +100,7 @@ This module will explore how we develop students' fluency with operations on who
 
 ## Module 4: Fractions, Decimals, and Rational Numbers
 
-This module will explore how extend students' understanding of numbers beyond whole numbers. Topics will include:
+This module will explore how extend students' understanding of numbers beyond whole numbers.
 
 -   Representations of fractions and decimals
 -   Equivalence and comparison of rational numbers
@@ -109,7 +109,7 @@ This module will explore how extend students' understanding of numbers beyond wh
 
 ## Module 5: Geometry and Measurement
 
-This module will explore how we support students' knowledge of shapes, spatial reasoning, and their associated measurements. Topics will include:
+This module will explore how we support students' knowledge of shapes, spatial reasoning, and their associated measurements.
 
 -   Properties of two- and three-dimensional figures
 -   Perimeter, area, surface area, and volume
@@ -118,7 +118,7 @@ This module will explore how we support students' knowledge of shapes, spatial r
 
 ## Module 6: Data Science and Probability
 
-This module will introduce data science and data literacy and how we think about chance and propbability. Topics will include:
+This module will introduce data science and data literacy and how we think about chance and propbability.
 
 -   Collecting, representing, and interpreting data
 -   Measures of central tendency (mean, median, mode)
@@ -127,7 +127,7 @@ This module will introduce data science and data literacy and how we think about
 
 ## Module 7: Mathematical Modeling and Early Algebraic Thinking
 
-This module will connect our arithmetic reasoning with algebraic thinking to develop some early ideas in algebra. Topics include:
+This module will connect our arithmetic reasoning with algebraic thinking to develop some early ideas in algebra.
 
 -   Recognizing patterns and generalizations
 -   Expressions, equations, and inequalities

@@ -12,7 +12,7 @@ format:
     smaller: true
     slide-number: c/t #< collapsted/total
     logo: "img/howard-logo.jpg"
-    footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa26)"
     toc: false
     echo: true
     incremental: false
@@ -26,15 +26,15 @@ Statistics builds upon deep mathematical concepts such as sets, numbers, and mea
 
 Alignment with the principles from the National Council of Teachers of Mathematics (NCTM, Principles to Actions, 2014).
 
-- Understand and describe different sets of numbers and their relationships.
-- Relate sets of numbers to statistical variable types.
-- Distinguish between a population and a sample in statistical terms.
-- Explain data collection and measurement processes grounded in mathematical reasoning.
-- Connect abstract mathematical structures to real-world data contexts.
+-   Understand and describe different sets of numbers and their relationships.
+-   Relate sets of numbers to statistical variable types.
+-   Distinguish between a population and a sample in statistical terms.
+-   Explain data collection and measurement processes grounded in mathematical reasoning.
+-   Connect abstract mathematical structures to real-world data contexts.
 
 # Sets of Numbers
 
-As we know, mathematics is constructed upon sets — well-defined collections of elements. 
+As we know, mathematics is constructed upon sets — well-defined collections of elements.
 
 The number system builds systematically upon these sets, each expanding the possibilities of measurement when we are thinking about statistics.
 
@@ -42,11 +42,11 @@ $$
 \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}
 $$
 
-- $\mathbb{N}$: The set of natural numbers, used for counting objects.  
-- $\mathbb{Z}$: The set of integers, extending natural numbers to include negatives.  
-- $\mathbb{Q}$: The set of rational numbers, allowing fractional relationships.  
-- $\mathbb{R}$: The set of real numbers, providing a complete continuum of measurement.  
-- $\mathbb{C}$: The set of complex numbers, incorporating an imaginary component $i = \sqrt{-1}$.  
+-   $\mathbb{N}$: The set of natural numbers, used for counting objects.\
+-   $\mathbb{Z}$: The set of integers, extending natural numbers to include negatives.\
+-   $\mathbb{Q}$: The set of rational numbers, allowing fractional relationships.\
+-   $\mathbb{R}$: The set of real numbers, providing a complete continuum of measurement.\
+-   $\mathbb{C}$: The set of complex numbers, incorporating an imaginary component $i = \sqrt{-1}$.
 
 Each set expands our capacity to represent and interpret reality mathematically. In statistics, these same conceptual expansions allow for increasingly sophisticated ways to represent and analyze data.
 
@@ -55,7 +55,7 @@ Each set expands our capacity to represent and interpret reality mathematically.
 Statistical variables describe measurable or classifiable aspects of a population. The type of variable determines the operations that can be performed and the level of precision possible.
 
 | Mathematical Set | Variable Type | Description | Example |
-|------------------|----------------|-------------|----------|
+|---------------------|-------------------|-----------------|-----------------|
 | $\mathbb{N}$ | Discrete | Countable outcomes | Number of books, number of students |
 | $\mathbb{Z}$ | Categorical Ordinal | Ordered categories, sometimes signed values | Temperature comparison, rankings |
 | $\mathbb{Q}$, $\mathbb{R}$ | Continuous | Measurable quantities on an interval or ratio scale | Time, distance, height |
@@ -67,18 +67,17 @@ This table shows the bridge between mathematics and statistics: number sets form
 
 In mathematics, we often discuss universal sets and their subsets. This same idea shapes statistical reasoning through the relationship between a population and a sample. Let:
 
-**Population**: The complete set of all individuals or observations of interest.  
+**Population**: The complete set of all individuals or observations of interest.
 
 $$
 U = \text{universal set of all possible observations}
 $$
 
-**Sample**: A subset selected from the population for study.  
+**Sample**: A subset selected from the population for study.
 
 $$
 S \subset U = \text{sample drawn from the population}
 $$
-
 
 ## Population parameter
 
@@ -92,11 +91,11 @@ A single number that summarizes a subset of data, or the sample.
 
 # Data Collection and Measurement
 
-Measurement connects the abstract and the empirical. It assigns numbers or categories to objects or events according to a defined rule. According to NCTM reasoning standards, effective data collection and measurement require:  
+Measurement connects the abstract and the empirical. It assigns numbers or categories to objects or events according to a defined rule. According to NCTM reasoning standards, effective data collection and measurement require:
 
-- A clear definition of variables.  
-- Consistency in units and scales.  
-- Awareness of sources of variability in data.  
+-   A clear definition of variables.\
+-   Consistency in units and scales.\
+-   Awareness of sources of variability in data.
 
 Measurements can be discrete (counted) or continuous (measured), directly linked to the corresponding set structure:
 
@@ -176,9 +175,7 @@ Within these two broad categories are other methods based on the needs of the st
 
 # Reflection
 
-Encourage students to connect these mathematical foundations to their teaching practice:  
-- How can the hierarchy of number sets guide discussions of data types?  
-- What set relationships help explain statistical sampling methods?  
+Encourage students to connect these mathematical foundations to their teaching practice:\
+- How can the hierarchy of number sets guide discussions of data types?\
+- What set relationships help explain statistical sampling methods?\
 - How can measurement be introduced through examples grounded in number theory?
-
-

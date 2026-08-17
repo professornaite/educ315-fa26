@@ -12,7 +12,7 @@ format:
     smaller: true
     slide-number: c/t
     logo: "img/howard-logo.jpg"
-    footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa26)"
     toc: false
     echo: true
     incremental: false
@@ -112,16 +112,15 @@ Nearly 100 years ago, a man named George Polya designed a four-step method to so
 
 -   How can CRA and Polya’s method build confidence in math learning?
 
-
 # Developing math activities
 
 Math activities are a necessity in any elementary school classroom!
 
 Math activities may not be complete lessons or units that introduce a new topic but, instead, they can be used provide opportunities for your students to:
 
-1. Learn new material in a fun and exciting way, or 
+1.  Learn new material in a fun and exciting way, or
 
-2. Complete a different form of a math assessment that is not a test or quiz.
+2.  Complete a different form of a math assessment that is not a test or quiz.
 
 Math activities come in many different formats and they may be based on the amount of time that you have to use, sometimes at the start of a lesson, or on an idea or topic that does not require a full lesson, such as a review of an older topic.
 
@@ -134,4 +133,3 @@ When planning a math activity, it is often useful to think about the specific st
 ![](/img/mod02/smart.png)
 
 What are you considering for your math activity?
-
