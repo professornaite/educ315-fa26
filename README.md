@@ -1,6 +1,6 @@
 # EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II (Grades 4-6)
 
-Fall 2025
+Fall 2026
 
 Instructor: Dr. Nathan Alexander
 
