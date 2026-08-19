@@ -16,6 +16,7 @@ format:
     footer: "[Course Data GitHub](https://github.com/educ315-fa26)"
     toc: false
     echo: true
+    scrollable: true
     incremental: false
 ---
 
@@ -43,13 +44,21 @@ If an element $a$ is in set $A$, we write $a \in A$.
 
 If a is not in $A$, we write $a \notin A$.
 
+------------------------------------------------------------------------
+
 ::: callout-tip
 ### Membership
 
 The fundamental property of sets is that elements are either members or non-members -- there is no in-between. The symbol $\in$ (epsilon) is used to denote membership.
 :::
 
-In this context, $\in$ (epsilon) means: "is an element of," "is a member of," or simply "is in." To indicate non-membership, we use $\notin$. For example, for the same set $A = \{1, 3, 5\}$, we write $6 \notin A$.
+In this context, $\in$ (epsilon) means: "is an element of," "is a member of," or simply "is in." 
+
+To indicate non-membership, we use $\notin$. 
+
+For example, for the same set $A = \{1, 3, 5\}$, we write $6 \notin A$.
+
+------------------------------------------------------------------------
 
 ::: callout-tip
 ### Subsets
@@ -58,6 +67,8 @@ A set $A$ is a subset of $B$ if every element of $A$ is also in $B$.
 
 We write $A \subseteq B$ to indicate subsets.
 :::
+
+------------------------------------------------------------------------
 
 ::: callout-tip
 ### Operations
@@ -86,11 +97,15 @@ A^{c} = \{ x \in U \mid x \notin A \}
 $$
 :::
 
+------------------------------------------------------------------------
+
 ## Sets of numbers
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NuYPj29z6Ko?si=XMgQpMjfWdaJ-7__" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/NuYPj29z6Ko?si=XMgQpMjfWdaJ-7__" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
 </iframe>
+
+------------------------------------------------------------------------
 
 ### Natural numbers
 
@@ -112,11 +127,15 @@ The set of **rational** numbers, $\mathbb{Q} = \{\dfrac{a}{b}, a \in \mathbb{Z},
 
 -   The set of **real** numbers, $\mathbb{R} = (-\infty, \infty)$
 
+------------------------------------------------------------------------
+
 ### Other sets
 
 What sets are missing? How can you define and visualize these other sets?
 
 ![Sets of numbers. From cuemath.com](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/real-numbers-1-1621595887.png)
+
+------------------------------------------------------------------------
 
 ## Framing mathematics and science
 
@@ -128,31 +147,65 @@ What sets are missing? How can you define and visualize these other sets?
 
 Logic refers to the principles of reasoning, especially correct reasoning. It's the systematic method of coming to conclusions through rational thought. In mathematics, logic involves the formal principles of reasoning and inference used to derive valid conclusions.
 
+------------------------------------------------------------------------
+
 ### Reasoning
 
 -   **Deductive reasoning**: Deductive reasoning is a logical process that involves drawing specific conclusions from general premises or principles that are assumed to be true. This form of reasoning is often described as a "top-down" approach, where one starts with a general statement and applies it to a specific case. In mathematics, deductive reasoning involves using established rules, facts, and theorems to draw specific conclusions. It moves from general principles to specific instances.
 
     -   For example, if we know that "All fish live in water" and "Nemo is a fish," what can we conclude?
+    
+    - Solving equations: Rule: If \(x + 5 = 12\), you can subtract \(5\) from both sides. Specific case: Your equation is \(x + 5 = 12\). Conclusion: \(x = 7\).
+    
+    - Even numbers: Rule: All even numbers can be divided by \(2\) with no remainder. Specific case: \(48\) is an even number. Conclusion: \(48\) can be divided by \(2\) with no remainder.
+
+---
+
+### Reasoning
 
 -   **Inductive reasoning**: Inductive reasoning is a logical process that involves drawing general conclusions from specific observations or instances. This method is often referred to as "bottom-up" reasoning, contrasting with deductive reasoning, which moves from general principles to specific conclusions. In mathematics, inductive reasoning involves observing patterns or specific instances to form general conclusions or hypotheses.
 
--   Using if-then statements.
+    - Number patterns: You see the sequence \(2, 4, 6, 8, \dots\) You notice each number adds \(2\). You guess that the next number is \(10\).
+    
+    - You multiply \(3 \times 5 = 15\), then \(7 \times 9 = 63\). Both answers are odd. You guess that multiplying any two odd numbers always gives an odd number.
+    
+    -   More generally, using if-then statements.
+
+------------------------------------------------------------------------
 
 ### Quantity
 
 Quantity relates to the amount or number of something that can be measured or counted. In mathematics, it deals with concepts like magnitude, size, or amount that can be expressed numerically.
 
+![Sample quantities](../img/quantity.jpg)
+
+------------------------------------------------------------------------
+
 ### Structure
 
-Structure in mathematics refers to the way mathematical objects are organized or arranged. It involves the relationships and patterns between mathematical entities, such as the properties of number systems or the organization of geometric shapes.
+Structure in mathematics refers to the way mathematical objects are organized or arranged. 
+
+![Structure of mathematics](../img/structure.gif)
+
+Structure involves the relationships and patterns between mathematical entities, such as the properties of number systems or the organization of geometric shapes.
+
+------------------------------------------------------------------------
 
 ### Space
 
-In mathematics, space refers to the framework within which points, lines, shapes, and other geometric objects exist. It can be two-dimensional (like a plane), three-dimensional (like our physical world), or even higher-dimensional in abstract mathematics.
+In mathematics, space refers to the framework within which points, lines, shapes, and other geometric objects exist. 
+
+![Dimensions in space](../img/space.png)
+
+Space can be two-dimensional (like a plane), three-dimensional (like our physical world), or even higher-dimensional in abstract mathematics.
+
+------------------------------------------------------------------------
 
 ### Change
 
 Change in mathematics deals with how quantities or properties vary or transform over time or under different conditions. This concept is fundamental to areas like calculus, which studies rates of change and accumulation.
+
+![Rate of change](../img/rate-of-change.png)
 
 # What do we mean by zero?
 
@@ -168,17 +221,6 @@ Counting: of you have a basket of apples and remove all of the apples, you are l
 
 Temperature: On the Celsius scale, zero degrees represents the freezing point of water.
 
-## Key Points:
-
-Zero as a placeholder in our number system.
-
-The role of zero in mathematics (e.g., additive identity).
-
-Historical developments of the concept of zero:
-
--   Dividing a number by zero, $\dfrac{x}{0} = \text{undefined}$ for some number $x \neq 0$
-
--   Dividing zero by zero, $\dfrac{x}{0} = \text{undefined}$ for some number $x = 0$.
 
 # What do we mean by infinity?
 
@@ -190,10 +232,49 @@ The number line: You can always add 1 to any number, no matter how large, so the
 
 Fractional division: 1 divided by 3 results in a repeating decimal (0.333...) that goes on infinitely.
 
-## Key Points
+------------------------------------------------------------------------
 
-Different types of infinity (countable and uncountable)
+## Key points to remember:
 
-The concept of infinity in mathematics vs. everyday life
+-   Zero as a placeholder in our number system.
 
-Paradoxes involving infinity (e.g., Hilbert's Hotel)
+-   The role of zero in mathematics (e.g., additive identity).
+
+-   Historical developments of the concept of zero:
+
+    -   Dividing a number by zero, $\dfrac{x}{0} = \text{undefined}$ for some number $x \neq 0$
+
+    -   Dividing zero by zero, $\dfrac{x}{0} = \text{undefined}$ for some number $x = 0$.
+
+-   Different types of infinity (countable and uncountable)
+
+-   The concept of infinity in mathematics vs. everyday life
+
+-   Paradoxes involving infinity (e.g., Hilbert's Hotel)
+
+---
+
+## Hilbert's Hotel
+
+*How the Paradox Works*
+
+Imagine a hotel with a countable infinity of rooms: 1, 2, 3, 4, and so on, with no last room.
+
+Every single room is already full.
+
+In a normal hotel, you cannot take new guests when every room is full.
+
+![](../img/hilberts-hotel.png)
+
+*Adding a Single New Guest*
+
+A new traveler arrives and wants a room.
+
+The manager asks the guest in room 1 to move to room 2.
+
+The guest in room 2 moves to room 3, and every guest $n$ moves to room $n + 1$.
+
+Room 1 is now empty for the new traveler, and nobody is left without a room.
+
+This proves that infinity plus one is still just infinity.
+
