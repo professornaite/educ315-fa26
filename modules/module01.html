@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta charset="utf-8" />
+<meta name="generator" content="quarto-1.6.42" />
 
-<meta name="author" content="Nathan Alexander, PhD">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 
-<title>Introduction to EDUC 315 – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</title>
+<meta name="author" content="Nathan Alexander, PhD" />
+
+<title>Module 1: Logic and the language of mathematics – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,7 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../modules/module01.html" rel="next">
-<link href="../who.html" rel="prev">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a9427a72cef4659b38ecab86abd91c73.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-37c62b78767fb2ccd452604dc9587d31.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<!-- htmldependencies:E3FAD763 -->
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -71,23 +54,54 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Introduction to EDUC 315 – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
-<meta property="og:description" content="Prin of Teaching Math &amp; Sci II - Howard University">
-<meta property="og:site_name" content="EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 </head>
 
-<body class="nav-sidebar docked">
+<body>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn"
+      data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" 
+      aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
+      onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/module00.html">Modules</a></li><li class="breadcrumb-item"><a href="../modules/module00.html">Overview</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <h1 class="quarto-secondary-nav-title no-breadcrumbs"></h1>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" role="link"
+        aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
+        onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -100,12 +114,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../img/gladys-west.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="/index.html" class="sidebar-logo-link">
+      <img src="/img/gladys-west.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none"/>
       </a>
       <div class="sidebar-tools-main tools-wide">
-    <a href="https://professornaite.github.io/educ315-fa26/" title="GitHub page" class="quarto-navigation-tool px-1" aria-label="GitHub page"><i class="bi bi-github"></i></a>
-    <a href="https://canvas.howard.edu/courses/70143" title="Canvas site" class="quarto-navigation-tool px-1" aria-label="Canvas site"><i class="bi bi-code-square"></i></a>
+    <a href="https://professornaite.github.io/educ315-fa26/"  title="GitHub page" class="quarto-navigation-tool px-1" aria-label="GitHub page"><i class="bi bi-github"></i></a>
+    <a href="https://canvas.howard.edu/courses/70143"  title="Canvas site" class="quarto-navigation-tool px-1" aria-label="Canvas site"><i class="bi bi-code-square"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div>
@@ -118,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1"  role="navigation" aria-expanded="false">
  <span class="menu-text">Course information</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -127,25 +141,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Calendar</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../course-overview.html" class="sidebar-item-text sidebar-link">
+  <a href="/course-overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments.html" class="sidebar-item-text sidebar-link">
+  <a href="/assignments.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Assignments</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../who.html" class="sidebar-item-text sidebar-link">
+  <a href="/who.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Site photo</span></a>
   </div>
 </li>
@@ -153,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2"  role="navigation" aria-expanded="true">
  <span class="menu-text">Modules</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -162,43 +176,43 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/module00.html" class="sidebar-item-text sidebar-link active">
+  <a href="/modules/module00.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/module01.html" class="sidebar-item-text sidebar-link">
+  <a href="/modules/module01.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Module 1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/module02.html" class="sidebar-item-text sidebar-link">
+  <a href="/modules/module02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/module03.html" class="sidebar-item-text sidebar-link">
+  <a href="/modules/module03.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 3</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/module04.html" class="sidebar-item-text sidebar-link">
+  <a href="/modules/module04.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 4</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/module05.html" class="sidebar-item-text sidebar-link">
+  <a href="/modules/module05.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 5</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/module06.html" class="sidebar-item-text sidebar-link">
+  <a href="/modules/module06.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 6</span></a>
   </div>
 </li>
@@ -206,7 +220,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3"  role="navigation" aria-expanded="false">
  <span class="menu-text">Rubrics</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -215,19 +229,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../other/math-corner.html" class="sidebar-item-text sidebar-link">
+  <a href="/other/math-corner.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Math corner activity</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../other/math-lesson1.html" class="sidebar-item-text sidebar-link">
+  <a href="/other/math-lesson1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mathematics Lesson Rubric</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../other/historical.html" class="sidebar-item-text sidebar-link">
+  <a href="/other/historical.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Historical STEM figure</span></a>
   </div>
 </li>
@@ -235,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4"  role="navigation" aria-expanded="false">
  <span class="menu-text">Field experience</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -244,13 +258,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../field/expectations.html" class="sidebar-item-text sidebar-link">
+  <a href="/field/expectations.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Expectations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../field/weekly.html" class="sidebar-item-text sidebar-link">
+  <a href="/field/weekly.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Weekly schedules</span></a>
   </div>
 </li>
@@ -259,39 +273,18 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" ></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course description</a></li>
-  <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor</a>
-  <ul class="collapse">
-  <li><a href="#instructor-contact-details" id="toc-instructor-contact-details" class="nav-link" data-scroll-target="#instructor-contact-details">Instructor contact details</a></li>
-  </ul></li>
-  <li><a href="#course-goals" id="toc-course-goals" class="nav-link" data-scroll-target="#course-goals">Course goals</a></li>
-  <li><a href="#overview-of-course-modules" id="toc-overview-of-course-modules" class="nav-link" data-scroll-target="#overview-of-course-modules">Overview of course modules</a>
-  <ul class="collapse">
-  <li><a href="#module-1-introduction-to-the-language-of-mathematics" id="toc-module-1-introduction-to-the-language-of-mathematics" class="nav-link" data-scroll-target="#module-1-introduction-to-the-language-of-mathematics">Module 1: Introduction to the Language of Mathematics</a></li>
-  <li><a href="#module-2-foundations-of-mathematical-thinking" id="toc-module-2-foundations-of-mathematical-thinking" class="nav-link" data-scroll-target="#module-2-foundations-of-mathematical-thinking">Module 2: Foundations of Mathematical Thinking</a></li>
-  <li><a href="#module-3-whole-number-operations-and-computation" id="toc-module-3-whole-number-operations-and-computation" class="nav-link" data-scroll-target="#module-3-whole-number-operations-and-computation">Module 3: Whole Number Operations and Computation</a></li>
-  <li><a href="#module-4-fractions-decimals-and-rational-numbers" id="toc-module-4-fractions-decimals-and-rational-numbers" class="nav-link" data-scroll-target="#module-4-fractions-decimals-and-rational-numbers">Module 4: Fractions, Decimals, and Rational Numbers</a></li>
-  <li><a href="#module-5-geometry-and-measurement" id="toc-module-5-geometry-and-measurement" class="nav-link" data-scroll-target="#module-5-geometry-and-measurement">Module 5: Geometry and Measurement</a></li>
-  <li><a href="#module-6-data-science-and-probability" id="toc-module-6-data-science-and-probability" class="nav-link" data-scroll-target="#module-6-data-science-and-probability">Module 6: Data Science and Probability</a></li>
-  <li><a href="#module-7-mathematical-modeling-and-early-algebraic-thinking" id="toc-module-7-mathematical-modeling-and-early-algebraic-thinking" class="nav-link" data-scroll-target="#module-7-mathematical-modeling-and-early-algebraic-thinking">Module 7: Mathematical Modeling and Early Algebraic Thinking</a></li>
-  </ul></li>
-  </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="module00-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+        <div id="quarto-toc-target"></div>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/module00.html">Modules</a></li><li class="breadcrumb-item"><a href="../modules/module00.html">Overview</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduction to EDUC 315</h1>
-<p class="subtitle lead">Prin of Teaching Math &amp; Sci II - Howard University</p>
+<h1 class="title">Module 1: Logic and the language of mathematics</h1>
+<p class="subtitle lead">EDUC 315 - Howard University</p>
 </div>
 
 
@@ -320,132 +313,326 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
-<section id="course-description" class="level1">
-<h1>Course description</h1>
-<p>This course provides candidates with knowledge, skills, dispositions and pedagogy to deliver content-rich, rigorous mathematics and science instruction for African American and diverse urban learners in grades 4 – 6. Candidates will have opportunities to employ a variety of instructional strategies to integrate mathematics and science content and the Common Core State Standards through the Principles of Learning Mathematics and Science. Field-based experiences provide an opportunity for candidates to design, develop and implement evidence-based lessons in science and mathematics.</p>
-<p>This course has a particular emphasis on learning mathematics in K-6 school settings.</p>
+<nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#module-overview" id="toc-module-overview">Module overview</a></li>
+  <li><a href="#notes" id="toc-notes">Notes</a>
+  <ul>
+  <li><a href="#the-concept-of-sets" id="toc-the-concept-of-sets">The concept of sets</a></li>
+  <li><a href="#sets-of-numbers" id="toc-sets-of-numbers">Sets of numbers</a>
+  <ul>
+  <li><a href="#natural-numbers" id="toc-natural-numbers">Natural numbers</a></li>
+  <li><a href="#whole-numbers" id="toc-whole-numbers">Whole numbers</a></li>
+  <li><a href="#integer-numbers" id="toc-integer-numbers">Integer numbers</a></li>
+  <li><a href="#rational-numbers" id="toc-rational-numbers">Rational numbers</a></li>
+  <li><a href="#real-numbers" id="toc-real-numbers">Real numbers</a></li>
+  <li><a href="#other-sets" id="toc-other-sets">Other sets</a></li>
+  </ul></li>
+  <li><a href="#framing-mathematics-and-science" id="toc-framing-mathematics-and-science">Framing mathematics and science</a>
+  <ul>
+  <li><a href="#logic" id="toc-logic">Logic</a></li>
+  <li><a href="#reasoning" id="toc-reasoning">Reasoning</a></li>
+  <li><a href="#reasoning-1" id="toc-reasoning-1">Reasoning</a></li>
+  <li><a href="#quantity" id="toc-quantity">Quantity</a></li>
+  <li><a href="#structure" id="toc-structure">Structure</a></li>
+  <li><a href="#space" id="toc-space">Space</a></li>
+  <li><a href="#change" id="toc-change">Change</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#what-do-we-mean-by-zero" id="toc-what-do-we-mean-by-zero">What do we mean by zero?</a>
+  <ul>
+  <li><a href="#examples" id="toc-examples">Examples</a></li>
+  </ul></li>
+  <li><a href="#what-do-we-mean-by-infinity" id="toc-what-do-we-mean-by-infinity">What do we mean by infinity?</a>
+  <ul>
+  <li><a href="#examples-1" id="toc-examples-1">Examples</a></li>
+  <li><a href="#key-points-to-remember" id="toc-key-points-to-remember">Key points to remember:</a></li>
+  <li><a href="#hilberts-hotel" id="toc-hilberts-hotel">Hilbert’s Hotel</a></li>
+  </ul></li>
+  </ul>
+</nav>
+<section id="module-overview" class="level1">
+<h1>Module overview</h1>
+<p>This module provides an overview of fundamental concepts in number, logic, and mathematical reasoning. We’ll explore the principles of deductive and inductive reasoning, and begin to develop a foundation for understanding logical arguments and mathematical proofs.</p>
+<p>We’ll also explore concepts such as quantity, structure, space, and change, which form the basis of the various mathematical disciplines. Special attention is given to the concepts of zero and infinity, their historical development, and their significance in mathematical thinking.</p>
 </section>
-<section id="instructor" class="level1">
-<h1>Instructor</h1>
-<p><strong>Nathan Alexander, PhD</strong></p>
-<p><em>School of Education</em></p>
+<section id="notes" class="level1">
+<h1>Notes</h1>
+<section id="the-concept-of-sets" class="level2">
+<h2>The concept of sets</h2>
+<p>A set is a well-defined collection of distinct objects. A set is considered as an object in its own right. Sets are foundational in mathematics because they provide a way to group and classify numbers, objects, or ideas. The items inside a set are called the set’s elements.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class='callout-icon'></i>
+</div>
+<div class="callout-title-container flex-fill">
+Elements
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>An element is an object or item in a set.</p>
+<p>For example, for <span class="math inline">\(A = \{1, 3, 5\} \text{ and } B = \{2, 4, 6\}\)</span>, we say <span class="math inline">\(3 \in A\)</span> and <span class="math inline">\(4 \in B\)</span>.</p>
+</div>
+</div>
+<p>If an element <span class="math inline">\(a\)</span> is in set <span class="math inline">\(A\)</span>, we write <span class="math inline">\(a \in A\)</span>.</p>
+<p>If a is not in <span class="math inline">\(A\)</span>, we write <span class="math inline">\(a \notin A\)</span>.</p>
+<hr />
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class='callout-icon'></i>
+</div>
+<div class="callout-title-container flex-fill">
+Membership
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The fundamental property of sets is that elements are either members or non-members – there is no in-between. The symbol <span class="math inline">\(\in\)</span> (epsilon) is used to denote membership.</p>
+</div>
+</div>
+<p>In this context, <span class="math inline">\(\in\)</span> (epsilon) means: “is an element of,” “is a member of,” or simply “is in.”</p>
+<p>To indicate non-membership, we use <span class="math inline">\(\notin\)</span>.</p>
+<p>For example, for the same set <span class="math inline">\(A = \{1, 3, 5\}\)</span>, we write <span class="math inline">\(6 \notin A\)</span>.</p>
+<hr />
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class='callout-icon'></i>
+</div>
+<div class="callout-title-container flex-fill">
+Subsets
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A set <span class="math inline">\(A\)</span> is a subset of <span class="math inline">\(B\)</span> if every element of <span class="math inline">\(A\)</span> is also in <span class="math inline">\(B\)</span>.</p>
+<p>We write <span class="math inline">\(A \subseteq B\)</span> to indicate subsets.</p>
+</div>
+</div>
+<hr />
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class='callout-icon'></i>
+</div>
+<div class="callout-title-container flex-fill">
+Operations
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<section id="union" class="level4">
+<h4>Union</h4>
+<p>The <strong>union</strong> of sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> is the set of all elements in <span class="math inline">\(A\)</span> or <span class="math inline">\(B\)</span>:</p>
+<p><span class="math display">\[
+A \cup B = \{ x \mid x \in A \text{ or } x \in B \}
+\]</span></p>
+</section>
+<section id="intersection" class="level4">
+<h4>Intersection</h4>
+<p>The <strong>intersection</strong> of sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> is the set of all elements in both <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>:</p>
+<p><span class="math display">\[
+A \cap B = \{ x \mid x \in A \text{ and } x \in B \}
+\]</span></p>
+</section>
+<section id="complement" class="level4">
+<h4>Complement</h4>
+<p>The <strong>complement</strong> of set <span class="math inline">\(A\)</span> (relative to a universal set <span class="math inline">\(U\)</span>) is the set of all elements in <span class="math inline">\(U\)</span> not in <span class="math inline">\(A\)</span>:<br />
+<span class="math display">\[
+A^{c} = \{ x \in U \mid x \notin A \}
+\]</span></p>
+</section>
+</div>
+</div>
+<hr />
+</section>
+<section id="sets-of-numbers" class="level2">
+<h2>Sets of numbers</h2>
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/NuYPj29z6Ko?si=XMgQpMjfWdaJ-7__" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<hr />
+<section id="natural-numbers" class="level3">
+<h3>Natural numbers</h3>
+<p>The set of <strong>natural</strong> numbers, <span class="math inline">\(\mathbb{N} = \{1, 2, 3, ...\}\)</span></p>
+</section>
+<section id="whole-numbers" class="level3">
+<h3>Whole numbers</h3>
+<p>The set of <strong>whole</strong> numbers, <span class="math inline">\(\mathbb{N_0} = \{0, 1, 2, 3, ...\}\)</span></p>
+</section>
+<section id="integer-numbers" class="level3">
+<h3>Integer numbers</h3>
+<p>The set of <strong>integers</strong>, <span class="math inline">\(\mathbb{Z} = \{..., -3, -2, -1, 0, 1, 2, 3, ...\}\)</span></p>
+</section>
+<section id="rational-numbers" class="level3">
+<h3>Rational numbers</h3>
+<p>The set of <strong>rational</strong> numbers, <span class="math inline">\(\mathbb{Q} = \{\dfrac{a}{b}, a \in \mathbb{Z}, b \in \mathbb{Z}, b \ne 0\}\)</span></p>
+</section>
+<section id="real-numbers" class="level3">
+<h3>Real numbers</h3>
 <ul>
-<li>Department of Curriculum and Instruction</li>
-<li>Miner Building 122H</li>
+<li>The set of <strong>real</strong> numbers, <span class="math inline">\(\mathbb{R} = (-\infty, \infty)\)</span></li>
 </ul>
-<p><em>The Graduate School</em></p>
+<hr />
+</section>
+<section id="other-sets" class="level3">
+<h3>Other sets</h3>
+<p>What sets are missing? How can you define and visualize these other sets?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/real-numbers-1-1621595887.png" class="img-fluid" /></p>
+<figcaption>Sets of numbers. From cuemath.com</figcaption>
+</figure>
+</div>
+<hr />
+</section>
+</section>
+<section id="framing-mathematics-and-science" class="level2">
+<h2>Framing mathematics and science</h2>
+<p><strong>Science</strong> is the systematic study and pursuit of knowledge about the natural and physical world through observation, experimentation, and the formulation of testable hypotheses. It involves a methods-based approach to understanding phenomena and developing explanations based on empirical evidence. <strong>Mathematics</strong> is the science that deals with the logic of quantity, structure, space, and change.</p>
+<hr />
+<section id="logic" class="level3">
+<h3>Logic</h3>
+<p>Logic refers to the principles of reasoning, especially correct reasoning. It’s the systematic method of coming to conclusions through rational thought. In mathematics, logic involves the formal principles of reasoning and inference used to derive valid conclusions.</p>
+<hr />
+</section>
+<section id="reasoning" class="level3">
+<h3>Reasoning</h3>
 <ul>
-<li>Program in Applied Data Science and Analytics</li>
-<li>Annex III Room 208</li>
-</ul>
-<hr>
-<section id="instructor-contact-details" class="level2">
-<h2 class="anchored" data-anchor-id="instructor-contact-details">Instructor contact details</h2>
+<li><p><strong>Deductive reasoning</strong>: Deductive reasoning is a logical process that involves drawing specific conclusions from general premises or principles that are assumed to be true. This form of reasoning is often described as a “top-down” approach, where one starts with a general statement and applies it to a specific case. In mathematics, deductive reasoning involves using established rules, facts, and theorems to draw specific conclusions. It moves from general principles to specific instances.</p>
 <ul>
-<li><p>Office Hours:</p>
-<ul>
-<li><p>Office location: Miner Building 122H (Curriculum and Instruction)</p></li>
-<li><p>Monday and Wednesday after class or by appointment</p></li>
-<li><p>Appointment Link: <a href="https://nathanalexander.youcanbook.me/" class="uri">https://nathanalexander.youcanbook.me/</a></p></li>
+<li><p>For example, if we know that “All fish live in water” and “Nemo is a fish,” what can we conclude?</p></li>
+<li><p>Solving equations: Rule: If (x + 5 = 12), you can subtract (5) from both sides. Specific case: Your equation is (x + 5 = 12). Conclusion: (x = 7).</p></li>
+<li><p>Even numbers: Rule: All even numbers can be divided by (2) with no remainder. Specific case: (48) is an even number. Conclusion: (48) can be divided by (2) with no remainder.</p></li>
 </ul></li>
-<li><p>Email: <a href="mailto:nathan.alexander@howard.edu">nathan.alexander@howard.edu</a></p></li>
-<li><p>Course Site: <a href="https://canvas.howard.edu/courses/70143" class="uri">https://canvas.howard.edu/courses/</a><a href="https://canvas.howard.edu/courses/70143">70143</a></p></li>
 </ul>
+<hr />
 </section>
-</section>
-<section id="course-goals" class="level1">
-<h1>Course goals</h1>
+<section id="reasoning-1" class="level3">
+<h3>Reasoning</h3>
 <ul>
-<li><p>Understand mathematics as learners and teachers, and reflect on how our experiences shape our views of mathematics and inform how we teach mathematics to others.</p></li>
-<li><p>Build skills in informal and formal mathematical reasoning and language, and explore how they shape our thinking, communication, and instruction in a classroom setting.</p></li>
-<li><p>Learn to analyze and construct mathematical arguments and connect them to teaching and learning scenarios that will improve your ability to design lessons and unit plans that:</p>
+<li><p><strong>Inductive reasoning</strong>: Inductive reasoning is a logical process that involves drawing general conclusions from specific observations or instances. This method is often referred to as “bottom-up” reasoning, contrasting with deductive reasoning, which moves from general principles to specific conclusions. In mathematics, inductive reasoning involves observing patterns or specific instances to form general conclusions or hypotheses.</p>
 <ul>
-<li>Support students’ identities as “mathematical thinkers and doers”</li>
-<li>Emphasize informal and formal reasoning and conceptual understanding</li>
-<li>Integrate mathematics and science using targeted standards</li>
+<li><p>Number patterns: You see the sequence (2, 4, 6, 8, ) You notice each number adds (2). You guess that the next number is (10).</p></li>
+<li><p>You multiply (3 = 15), then (7 = 63). Both answers are odd. You guess that multiplying any two odd numbers always gives an odd number.</p></li>
+<li><p>More generally, using if-then statements.</p></li>
 </ul></li>
-<li><p>Apply theories and strategies in a classroom-based field experience</p></li>
 </ul>
+<hr />
 </section>
-<section id="overview-of-course-modules" class="level1">
-<h1>Overview of course modules</h1>
-<section id="module-1-introduction-to-the-language-of-mathematics" class="level2">
-<h2 class="anchored" data-anchor-id="module-1-introduction-to-the-language-of-mathematics">Module 1: Introduction to the Language of Mathematics</h2>
-<p>This module sets the stage for our course by building our knowledge of the habits of mathematics, logical reasoning and the importance of informal learning as well as precision in mathematical learning.</p>
-<ul>
-<li>The basic elements of logic: propositions, connectives, and quantifiers</li>
-<li>How to structure mathematical arguments and proofs</li>
-<li>Use of precise definitions and symbols</li>
-<li>Transition from everyday reasoning to formal mathematical thinking</li>
-</ul>
+<section id="quantity" class="level3">
+<h3>Quantity</h3>
+<p>Quantity relates to the amount or number of something that can be measured or counted. In mathematics, it deals with concepts like magnitude, size, or amount that can be expressed numerically.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="../img/quantity.jpg" class="img-fluid" /></p>
+<figcaption>Sample quantities</figcaption>
+</figure>
+</div>
+<hr />
 </section>
-<section id="module-2-foundations-of-mathematical-thinking" class="level2">
-<h2 class="anchored" data-anchor-id="module-2-foundations-of-mathematical-thinking">Module 2: Foundations of Mathematical Thinking</h2>
-<p>This module will reinforce some of the essential skills that underlie all of our thinking about mathematics, and have us consider some of the ways that we can approach supporting mathematical thinking.</p>
-<ul>
-<li>Number sense and patterns</li>
-<li>Place value and structure of the number system</li>
-<li>Problem-solving strategies</li>
-<li>Connections between arithmetic and broader mathematical concepts</li>
-</ul>
+<section id="structure" class="level3">
+<h3>Structure</h3>
+<p>Structure in mathematics refers to the way mathematical objects are organized or arranged.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="../img/structure.gif" class="img-fluid" /></p>
+<figcaption>Structure of mathematics</figcaption>
+</figure>
+</div>
+<p>Structure involves the relationships and patterns between mathematical entities, such as the properties of number systems or the organization of geometric shapes.</p>
+<hr />
 </section>
-<section id="module-3-whole-number-operations-and-computation" class="level2">
-<h2 class="anchored" data-anchor-id="module-3-whole-number-operations-and-computation">Module 3: Whole Number Operations and Computation</h2>
-<p>This module will explore how we develop students’ fluency with operations on whole numbers.</p>
-<ul>
-<li>Addition, subtraction, multiplication, and division</li>
-<li>Properties of operations (commutative, associative, distributive)</li>
-<li>Algorithms and mental computation strategies</li>
-<li>Estimation and reasoning about magnitude</li>
-</ul>
+<section id="space" class="level3">
+<h3>Space</h3>
+<p>In mathematics, space refers to the framework within which points, lines, shapes, and other geometric objects exist.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="../img/space.png" class="img-fluid" /></p>
+<figcaption>Dimensions in space</figcaption>
+</figure>
+</div>
+<p>Space can be two-dimensional (like a plane), three-dimensional (like our physical world), or even higher-dimensional in abstract mathematics.</p>
+<hr />
 </section>
-<section id="module-4-fractions-decimals-and-rational-numbers" class="level2">
-<h2 class="anchored" data-anchor-id="module-4-fractions-decimals-and-rational-numbers">Module 4: Fractions, Decimals, and Rational Numbers</h2>
-<p>This module will explore how extend students’ understanding of numbers beyond whole numbers.</p>
-<ul>
-<li>Representations of fractions and decimals</li>
-<li>Equivalence and comparison of rational numbers</li>
-<li>Operations with fractions and decimals</li>
-<li>Ratios, rates, and percentages in real-world contexts</li>
-</ul>
+<section id="change" class="level3">
+<h3>Change</h3>
+<p>Change in mathematics deals with how quantities or properties vary or transform over time or under different conditions. This concept is fundamental to areas like calculus, which studies rates of change and accumulation.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="../img/rate-of-change.png" class="img-fluid" /></p>
+<figcaption>Rate of change</figcaption>
+</figure>
+</div>
 </section>
-<section id="module-5-geometry-and-measurement" class="level2">
-<h2 class="anchored" data-anchor-id="module-5-geometry-and-measurement">Module 5: Geometry and Measurement</h2>
-<p>This module will explore how we support students’ knowledge of shapes, spatial reasoning, and their associated measurements.</p>
-<ul>
-<li>Properties of two- and three-dimensional figures</li>
-<li>Perimeter, area, surface area, and volume</li>
-<li>Coordinate geometry and transformations</li>
-<li>Units of measurement and precision</li>
-</ul>
 </section>
-<section id="module-6-data-science-and-probability" class="level2">
-<h2 class="anchored" data-anchor-id="module-6-data-science-and-probability">Module 6: Data Science and Probability</h2>
-<p>This module will introduce data science and data literacy and how we think about chance and propbability.</p>
-<ul>
-<li>Collecting, representing, and interpreting data</li>
-<li>Measures of central tendency (mean, median, mode)</li>
-<li>Variability and distributions</li>
-<li>Basic probability concepts and applications</li>
-</ul>
 </section>
-<section id="module-7-mathematical-modeling-and-early-algebraic-thinking" class="level2">
-<h2 class="anchored" data-anchor-id="module-7-mathematical-modeling-and-early-algebraic-thinking">Module 7: Mathematical Modeling and Early Algebraic Thinking</h2>
-<p>This module will connect our arithmetic reasoning with algebraic thinking to develop some early ideas in algebra.</p>
+<section id="what-do-we-mean-by-zero" class="level1">
+<h1>What do we mean by zero?</h1>
+<p>Zero is a number that represents the absence of quantity or magnitude. It is the integer between the set of all negative integers and all positive integers.</p>
+<section id="examples" class="level2">
+<h2>Examples</h2>
+<p>The empty set: <span class="math inline">\(\emptyset\)</span> or <span class="math inline">\(\{ \}\)</span>.</p>
+<p>The number line: A starting point on number line.</p>
+<p>Counting: of you have a basket of apples and remove all of the apples, you are left with zero apples.</p>
+<p>Temperature: On the Celsius scale, zero degrees represents the freezing point of water.</p>
+</section>
+</section>
+<section id="what-do-we-mean-by-infinity" class="level1">
+<h1>What do we mean by infinity?</h1>
+<p>Infinity is a concept describing something without any limit, and is larger than any real number. It is often denoted by the symbol <span class="math inline">\(\infty\)</span>.</p>
+<section id="examples-1" class="level2">
+<h2>Examples</h2>
+<p>The number line: You can always add 1 to any number, no matter how large, so the number line extends infinitely.</p>
+<p>Fractional division: 1 divided by 3 results in a repeating decimal (0.333…) that goes on infinitely.</p>
+<hr />
+</section>
+<section id="key-points-to-remember" class="level2">
+<h2>Key points to remember:</h2>
 <ul>
-<li>Recognizing patterns and generalizations</li>
-<li>Expressions, equations, and inequalities</li>
-<li>Using variables to represent quantities</li>
-<li>Introduction to mathematical models for real-world problems</li>
+<li><p>Zero as a placeholder in our number system.</p></li>
+<li><p>The role of zero in mathematics (e.g., additive identity).</p></li>
+<li><p>Historical developments of the concept of zero:</p>
+<ul>
+<li><p>Dividing a number by zero, <span class="math inline">\(\dfrac{x}{0} = \text{undefined}\)</span> for some number <span class="math inline">\(x \neq 0\)</span></p></li>
+<li><p>Dividing zero by zero, <span class="math inline">\(\dfrac{x}{0} = \text{undefined}\)</span> for some number <span class="math inline">\(x = 0\)</span>.</p></li>
+</ul></li>
+<li><p>Different types of infinity (countable and uncountable)</p></li>
+<li><p>The concept of infinity in mathematics vs. everyday life</p></li>
+<li><p>Paradoxes involving infinity (e.g., Hilbert’s Hotel)</p></li>
 </ul>
-
-
+<hr />
+</section>
+<section id="hilberts-hotel" class="level2">
+<h2>Hilbert’s Hotel</h2>
+<p><em>How the Paradox Works</em></p>
+<p>Imagine a hotel with a countable infinity of rooms: 1, 2, 3, 4, and so on, with no last room.</p>
+<p>Every single room is already full.</p>
+<p>In a normal hotel, you cannot take new guests when every room is full.</p>
+<p><img src="../img/hilberts-hotel.png" class="img-fluid" /></p>
+<p><em>Adding a Single New Guest</em></p>
+<p>A new traveler arrives and wants a room.</p>
+<p>The manager asks the guest in room 1 to move to room 2.</p>
+<p>The guest in room 2 moves to room 3, and every guest <span class="math inline">\(n\)</span> moves to room <span class="math inline">\(n + 1\)</span>.</p>
+<p>Room 1 is now empty for the new traveler, and nobody is left without a room.</p>
+<p>This proves that infinity plus one is still just infinity.</p>
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl">EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU=">EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uZXh0">Module 2</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1wcmV2">Overview</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOnF1YXJ0by1zaWRlYmFyLXNlY3Rpb24tMQ==">Course information</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9pbmRleC5odG1sQ2FsZW5kYXI=">Calendar</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9jb3Vyc2Utb3ZlcnZpZXcuaHRtbE92ZXJ2aWV3">Overview</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9hc3NpZ25tZW50cy5odG1sQXNzaWdubWVudHM=">Assignments</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi93aG8uaHRtbFNpdGUtcGhvdG8=">Site photo</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOnF1YXJ0by1zaWRlYmFyLXNlY3Rpb24tMg==">Modules</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9tb2R1bGVzL21vZHVsZTAwLmh0bWxPdmVydmlldw==">Overview</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9tb2R1bGVzL21vZHVsZTAxLmh0bWxNb2R1bGUtMQ==">Module 1</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9tb2R1bGVzL21vZHVsZTAyLmh0bWxNb2R1bGUtMg==">Module 2</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9tb2R1bGVzL21vZHVsZTAzLmh0bWxNb2R1bGUtMw==">Module 3</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9tb2R1bGVzL21vZHVsZTA0Lmh0bWxNb2R1bGUtNA==">Module 4</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9tb2R1bGVzL21vZHVsZTA1Lmh0bWxNb2R1bGUtNQ==">Module 5</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9tb2R1bGVzL21vZHVsZTA2Lmh0bWxNb2R1bGUtNg==">Module 6</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOnF1YXJ0by1zaWRlYmFyLXNlY3Rpb24tMw==">Rubrics</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9vdGhlci9tYXRoLWNvcm5lci5odG1sTWF0aC1jb3JuZXItYWN0aXZpdHk=">Math corner activity</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9vdGhlci9tYXRoLWxlc3NvbjEuaHRtbE1hdGhlbWF0aWNzLUxlc3Nvbi1SdWJyaWM=">Mathematics Lesson Rubric</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9vdGhlci9oaXN0b3JpY2FsLmh0bWxIaXN0b3JpY2FsLVNURU0tZmlndXJl">Historical STEM figure</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOnF1YXJ0by1zaWRlYmFyLXNlY3Rpb24tNA==">Field experience</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9maWVsZC9leHBlY3RhdGlvbnMuaHRtbEV4cGVjdGF0aW9ucw==">Expectations</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9maWVsZC93ZWVrbHkuaHRtbFdlZWtseS1zY2hlZHVsZXM=">Weekly schedules</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWJyZWFkY3J1bWJzLU1vZHVsZXM=">Modules</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWJyZWFkY3J1bWJzLU1vZHVsZS0x">Module 1</span></p>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="Zm9vdGVyLWxlZnQ=">
+<p>© Copyright 2026, Nathan N. Alexander</p>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="Zm9vdGVyLXJpZ2h0">
+<p>This page was built by Nathan N. Alexander, PhD in <a href="https://quarto.org/">Quarto</a></p>
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Module 1: Logic and the language of mathematics – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Module 1: Logic and the language of mathematics – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Module 1: Logic and the language of mathematics – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw==">EDUC 315 - Howard University</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj">EDUC 315 - Howard University</span></p>
+</div>
 </section>
 </section>
 
 </main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+<script id = "quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -1008,13 +1195,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../who.html" class="pagination-link" aria-label="Site photo">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Site photo</span>
+      <a  href="/modules/module00.html" class="pagination-link" aria-label="Overview">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Overview</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../modules/module01.html" class="pagination-link" aria-label="Module 1">
-        <span class="nav-page-text">Module 1</span> <i class="bi bi-arrow-right-short"></i>
+      <a  href="/modules/module02.html" class="pagination-link" aria-label="Module 2">
+        <span class="nav-page-text">Module 2</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1022,18 +1209,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Copyright 2026, Nathan N. Alexander</p>
-</div>   
+      <div class='footer-contents'>&copy; Copyright 2026, Nathan N. Alexander</div>  
+    </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>This page was built by Nathan N. Alexander, PhD in <a href="https://quarto.org/">Quarto</a></p>
-</div>
+      <div class='footer-contents'>This page was built by Nathan N. Alexander, PhD in [Quarto](https://quarto.org/)</div>  
+    </div>
   </div>
 </footer>
 
+</body>
 
-
-
-</body></html>
+</html>

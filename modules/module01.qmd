@@ -52,9 +52,9 @@ If a is not in $A$, we write $a \notin A$.
 The fundamental property of sets is that elements are either members or non-members -- there is no in-between. The symbol $\in$ (epsilon) is used to denote membership.
 :::
 
-In this context, $\in$ (epsilon) means: "is an element of," "is a member of," or simply "is in." 
+In this context, $\in$ (epsilon) means: "is an element of," "is a member of," or simply "is in."
 
-To indicate non-membership, we use $\notin$. 
+To indicate non-membership, we use $\notin$.
 
 For example, for the same set $A = \{1, 3, 5\}$, we write $6 \notin A$.
 
@@ -154,21 +154,21 @@ Logic refers to the principles of reasoning, especially correct reasoning. It's 
 -   **Deductive reasoning**: Deductive reasoning is a logical process that involves drawing specific conclusions from general premises or principles that are assumed to be true. This form of reasoning is often described as a "top-down" approach, where one starts with a general statement and applies it to a specific case. In mathematics, deductive reasoning involves using established rules, facts, and theorems to draw specific conclusions. It moves from general principles to specific instances.
 
     -   For example, if we know that "All fish live in water" and "Nemo is a fish," what can we conclude?
-    
-    - Solving equations: Rule: If \(x + 5 = 12\), you can subtract \(5\) from both sides. Specific case: Your equation is \(x + 5 = 12\). Conclusion: \(x = 7\).
-    
-    - Even numbers: Rule: All even numbers can be divided by \(2\) with no remainder. Specific case: \(48\) is an even number. Conclusion: \(48\) can be divided by \(2\) with no remainder.
 
----
+    -   Solving equations: Rule: If (x + 5 = 12), you can subtract (5) from both sides. Specific case: Your equation is (x + 5 = 12). Conclusion: (x = 7).
+
+    -   Even numbers: Rule: All even numbers can be divided by (2) with no remainder. Specific case: (48) is an even number. Conclusion: (48) can be divided by (2) with no remainder.
+
+------------------------------------------------------------------------
 
 ### Reasoning
 
 -   **Inductive reasoning**: Inductive reasoning is a logical process that involves drawing general conclusions from specific observations or instances. This method is often referred to as "bottom-up" reasoning, contrasting with deductive reasoning, which moves from general principles to specific conclusions. In mathematics, inductive reasoning involves observing patterns or specific instances to form general conclusions or hypotheses.
 
-    - Number patterns: You see the sequence \(2, 4, 6, 8, \dots\) You notice each number adds \(2\). You guess that the next number is \(10\).
-    
-    - You multiply \(3 \times 5 = 15\), then \(7 \times 9 = 63\). Both answers are odd. You guess that multiplying any two odd numbers always gives an odd number.
-    
+    -   Number patterns: You see the sequence (2, 4, 6, 8, \dots) You notice each number adds (2). You guess that the next number is (10).
+
+    -   You multiply (3 \times 5 = 15), then (7 \times 9 = 63). Both answers are odd. You guess that multiplying any two odd numbers always gives an odd number.
+
     -   More generally, using if-then statements.
 
 ------------------------------------------------------------------------
@@ -183,9 +183,9 @@ Quantity relates to the amount or number of something that can be measured or co
 
 ### Structure
 
-Structure in mathematics refers to the way mathematical objects are organized or arranged. 
+Structure in mathematics refers to the way mathematical objects are organized or arranged.
 
-![Structure of mathematics](../img/structure.gif)
+![Structure of mathematics](../img/structure.png)
 
 Structure involves the relationships and patterns between mathematical entities, such as the properties of number systems or the organization of geometric shapes.
 
@@ -193,7 +193,7 @@ Structure involves the relationships and patterns between mathematical entities,
 
 ### Space
 
-In mathematics, space refers to the framework within which points, lines, shapes, and other geometric objects exist. 
+In mathematics, space refers to the framework within which points, lines, shapes, and other geometric objects exist.
 
 ![Dimensions in space](../img/space.png)
 
@@ -220,7 +220,6 @@ The number line: A starting point on number line.
 Counting: of you have a basket of apples and remove all of the apples, you are left with zero apples.
 
 Temperature: On the Celsius scale, zero degrees represents the freezing point of water.
-
 
 # What do we mean by infinity?
 
@@ -252,7 +251,7 @@ Fractional division: 1 divided by 3 results in a repeating decimal (0.333...) th
 
 -   Paradoxes involving infinity (e.g., Hilbert's Hotel)
 
----
+------------------------------------------------------------------------
 
 ## Hilbert's Hotel
 
@@ -277,4 +276,3 @@ The guest in room 2 moves to room 3, and every guest $n$ moves to room $n + 1$.
 Room 1 is now empty for the new traveler, and nobody is left without a room.
 
 This proves that infinity plus one is still just infinity.
-
