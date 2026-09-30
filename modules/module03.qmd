@@ -28,6 +28,48 @@ This module explores the mathematical concepts focusing on whole number operatio
 
 ------------------------------------------------------------------------
 
+## Concrete-Representational-Abstract (CRA)
+
+The Concrete-Representational-Abstract (CRA) process is an instructional approach in mathematics that helps students develop a deeper understanding of mathematical concepts by progressing through three stages:
+
+**Concrete** Stage:
+
+-   Students use physical, hands-on objects to model mathematical concepts
+
+-   Examples include base-10 blocks, counters, fraction bars, or algebra tiles
+
+-   This stage allows students to manipulate tangible objects to solve problems
+
+![Image from CRA methods by the Mathematics Initiative at www.pattan.net](/img/mod03/cra-algebra-tiles-adding-integers.png){width="80%"}
+
+------------------------------------------------------------------------
+
+**Representational** (or Pictorial) Stage:
+
+-   Students transition to using visual representations of the concrete objects
+
+-   This may involve drawings, diagrams, or other pictorial models
+
+-   Examples include number lines, bar models, or sketches of manipulatives
+
+![Image from CRA methods by the Mathematics Initiative at www.pattan.net](/img/mod03/cra-base-ten-blocks-place-value.png){width="80%"}
+
+------------------------------------------------------------------------
+
+**Abstract** Stage:
+
+-   Students work with abstract symbols and notation
+
+-   This includes numbers, variables, and mathematical symbols (+, -, x, ÷)
+
+-   Students apply their understanding to solve problems using standard algorithms
+
+![Image from CRA methods by the Mathematics Initiative at www.pattan.net](/img/mod03/cra-chips-equivalent-fractions.png){width="80%"}
+
+The CRA approach deepens mathematical understanding and help students internalize abstract concepts by first grounding them in concrete experiences.
+
+------------------------------------------------------------------------
+
 ## Discussion of Properties
 
 ### Commutative Property
@@ -74,8 +116,6 @@ Multiplying any number by zero results in zero:
 
 $a \times 0 = 0$
 
-------------------------------------------------------------------------
-
 # Quantity and Operations
 
 ::: {.callout-note icon="false"}
@@ -105,9 +145,19 @@ Examples:
 An operation is a mathematical process or action performed on one or more quantities to produce a new quantity or result. It is a rule for combining mathematical objects or values.
 :::
 
+Key points:
+
 -   Operations transform quantities into new quantities
 -   They follow specific rules and properties (e.g., commutative, associative)
 -   Understanding operations is crucial for problem-solving and algebraic thinking
+
+Examples:
+
+-   PEMDAS: Parenthesis, Exponents, Multiplication, Division, Addition, Subtraction
+-   Adding and subtracting variables
+-   Word problems that require the use of symbols and numbers
+
+---
 
 ::: callout-tip
 ### Addition (sum)
@@ -133,8 +183,6 @@ Repeated addition or scaling (e.g., 3 × 4 = 12)
 Distributing a quantity into equal parts (e.g., 15 ÷ 3 = 5)
 :::
 
-------------------------------------------------------------------------
-
 ::: callout-tip
 ### Exponentiation (exponent)
 
@@ -147,39 +195,7 @@ Repeated multiplication (e.g., 2³ = 8)
 Inverse of exponentiation (e.g., $\sqrt{16} = 4$)
 :::
 
-## Concrete-Representational-Abstract (CRA)
-
-The Concrete-Representational-Abstract (CRA) process is an instructional approach in mathematics that helps students develop a deeper understanding of mathematical concepts by progressing through three stages:
-
-1.  **Concrete** Stage:
-
--   Students use physical, hands-on objects to model mathematical concepts
--   Examples include base-10 blocks, counters, fraction bars, or algebra tiles
--   This stage allows students to manipulate tangible objects to solve problems
-
-![Image from CRA methods by the Mathematics Initiative at www.pattan.net](/img/mod03/cra-algebra-tiles-adding-integers.png){width="80%"}
-
-2.  **Representational** (or Pictorial) Stage:
-
--   Students transition to using visual representations of the concrete objects
--   This may involve drawings, diagrams, or other pictorial models
--   Examples include number lines, bar models, or sketches of manipulatives
-
-![Image from CRA methods by the Mathematics Initiative at www.pattan.net](/img/mod03/cra-base-ten-blocks-place-value.png){width="80%"}
-
-3.  **Abstract** Stage:
-
--   Students work with abstract symbols and notation
--   This includes numbers, variables, and mathematical symbols (+, -, x, ÷)
--   Students apply their understanding to solve problems using standard algorithms
-
-![Image from CRA methods by the Mathematics Initiative at www.pattan.net](/img/mod03/cra-chips-equivalent-fractions.png){width="80%"}
-
-The CRA approach deepens mathematical understanding and help students internalize abstract concepts by first grounding them in concrete experiences.
-
-------------------------------------------------------------------------
-
-# Sum and Difference
+---
 
 ## Algebra tiles
 
