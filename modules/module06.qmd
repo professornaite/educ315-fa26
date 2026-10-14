@@ -1,5 +1,5 @@
 ---
-title: "Module 6: Statistics and probability"
+title: "Module 6: Data science, stistics and probability"
 subtitle: "EDUC 315 - Howard University"
 author: "Nathan Alexander, PhD"
 institute: "School of Education"
@@ -55,7 +55,7 @@ Each set expands our capacity to represent and interpret reality mathematically.
 Statistical variables describe measurable or classifiable aspects of a population. The type of variable determines the operations that can be performed and the level of precision possible.
 
 | Mathematical Set | Variable Type | Description | Example |
-|---------------------|-------------------|-----------------|-----------------|
+|--------------------|------------------|-----------------|-----------------|
 | $\mathbb{N}$ | Discrete | Countable outcomes | Number of books, number of students |
 | $\mathbb{Z}$ | Categorical Ordinal | Ordered categories, sometimes signed values | Temperature comparison, rankings |
 | $\mathbb{Q}$, $\mathbb{R}$ | Continuous | Measurable quantities on an interval or ratio scale | Time, distance, height |
