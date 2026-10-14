@@ -203,13 +203,24 @@ Depending on the grade of instruction, algebra tiles can be used as a concrete w
 
 ![Introducing the tiles. From calculate.org.au](/img/mod03/algebra-tile-0.png)
 
+---
+
+### Zero-sum representation
+
 ![Zero-sum representation. From calculate.org.au](/img/mod03/algebra-tile-1.png)
+
+---
+
+### Modeling integers
 
 ![Modeling integers. From calculate.org.au](/img/mod03/algebra-tile-2.png)
 
+---
+
+### Addition and subtraction of integers
+
 ![Addition and subtraction of integers. From calculate.org.au](/img/mod03/algebra-tile-3.png)
 
-------------------------------------------------------------------------
 
 # Product and Quotient
 
@@ -217,7 +228,11 @@ Fraction tiles provide a great way to review and extend students' understanding 
 
 ![EDUC 315 fraction tiles](/img/mod03/fraction-tiles-1.jpeg)
 
+---
+
 ![EDUC 315 fraction tiles](/img/mod03/fraction-tiles-2.jpeg)
+
+---
 
 ### Assessing multiple skills
 
@@ -225,7 +240,6 @@ Multiplication (product) with fractions (quotients)
 
 ![](/img/mod03/multiplying-fractions.jpg)
 
-------------------------------------------------------------------------
 
 # Exponents and Roots
 
@@ -233,7 +247,7 @@ There are many ways to teach exponents and roots:
 
 ## Teaching Exponents
 
-**Pattern Blocks**
+### Pattern Blocks
 
 Pattern blocks can be used to visually demonstrate exponents. For example:
 
@@ -241,13 +255,16 @@ Pattern blocks can be used to visually demonstrate exponents. For example:
 -   Four triangles together represent $2 \times 2$
 -   Nine triangles together represent $3 \times 3$
 
-![](/img/mod03/pattern-blocks.jpg)
 
-Draw the pattern for $4 \times 4$ and $5 \times 5$.
+![Pattern blocks](/img/mod03/pattern-blocks.jpg)
+
+Try to draw the pattern for $4 \times 4$ and $5 \times 5$.
 
 These patterns helps students visualize the quantity of exponents but we want to also show them representations of exponents as repeated multiplication; we can use base-ten blocks to extend their understanding.
 
-**Base Ten Blocks**
+---
+
+### Base Ten Blocks
 
 Base ten blocks work well for teaching powers of 10:
 
@@ -256,7 +273,9 @@ Base ten blocks work well for teaching powers of 10:
 -   A flat represents $10^2 = 10 x 10 = (100)$
 -   A large cube represents $10^3 = 10 x 10 x 10 = (1000)$
 
-**Grid Paper**
+---
+
+### Grid Paper
 
 Grid paper allows students to draw squares and rectangles to represent exponents:
 
@@ -264,7 +283,7 @@ Grid paper allows students to draw squares and rectangles to represent exponents
 -   A $3 x 3$ square represents $3^2$
 -   A $2 x 2 x 2$ cube represents $2^3$
 
-![](/img/mod03/grid-paper.jpg)
+![Grid paper](/img/mod03/grid-paper.jpg)
 
 Draw the figures representing $3^3$ and $4^2$.
 
@@ -279,7 +298,9 @@ Algebra tiles are also good for teaching square roots:
 
 For example, a $3x3$ square of tiles has an area of $9$, so the square root of $9$ is $3$.
 
-**Grid Paper**
+---
+
+### Grid Paper
 
 Grid paper can be used to estimate non-perfect square roots:
 
@@ -291,7 +312,9 @@ This provides a visual model for estimating irrational square roots.
 
 ![](/img/mod03/square-root-number-line.jpg)
 
-**Number Lines**
+---
+
+### Number Lines
 
 Use a number line to place square roots between perfect squares:
 
@@ -302,7 +325,6 @@ This helps students understand square roots as numbers between integers.
 
 We can use manipulatives to build conceptual understanding before moving to procedures. Allow students to explore and discover patterns through hands-on activities. Gradually connect the concrete models to symbolic notation as students gain understanding.
 
-------------------------------------------------------------------------
 
 # STEM figures and history
 
