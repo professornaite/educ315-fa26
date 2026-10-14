@@ -326,7 +326,7 @@
   {
     "objectID": "modules/module06.html",
     "href": "modules/module06.html",
-    "title": "Module 6: Statistics and probability",
+    "title": "Module 6: Data science, stistics and probability",
     "section": "",
     "text": "Statistics builds upon deep mathematical concepts such as sets, numbers, and measurement. These foundations allow us to describe, collect, and analyze data effectively. Before studying data, we must understand the basic structures from which all numerical and categorical reasoning emerge.",
     "crumbs": [
@@ -337,7 +337,7 @@
   {
     "objectID": "modules/module06.html#population-parameter",
     "href": "modules/module06.html#population-parameter",
-    "title": "Module 6: Statistics and probability",
+    "title": "Module 6: Data science, stistics and probability",
     "section": "Population parameter",
     "text": "Population parameter\nA number which summarizes the entire group.",
     "crumbs": [
@@ -348,7 +348,7 @@
   {
     "objectID": "modules/module06.html#sample-statistic",
     "href": "modules/module06.html#sample-statistic",
-    "title": "Module 6: Statistics and probability",
+    "title": "Module 6: Data science, stistics and probability",
     "section": "Sample statistic",
     "text": "Sample statistic\nA single number that summarizes a subset of data, or the sample.\n\n\n\nPopulation vs. Sample. Image from Scribbr.",
     "crumbs": [
@@ -359,14 +359,14 @@
   {
     "objectID": "modules/module06-slides.html#population-parameter",
     "href": "modules/module06-slides.html#population-parameter",
-    "title": "Module 6: Statistics and probability",
+    "title": "Module 6: Data science, stistics and probability",
     "section": "Population parameter",
     "text": "Population parameter\nA number which summarizes the entire group."
   },
   {
     "objectID": "modules/module06-slides.html#sample-statistic",
     "href": "modules/module06-slides.html#sample-statistic",
-    "title": "Module 6: Statistics and probability",
+    "title": "Module 6: Data science, stistics and probability",
     "section": "Sample statistic",
     "text": "Sample statistic\nA single number that summarizes a subset of data, or the sample.\n\nPopulation vs. Sample. Image from Scribbr."
   },
@@ -708,7 +708,7 @@
     "href": "index.html",
     "title": "Welcome to EDUC 315",
     "section": "",
-    "text": "This is the companion site for EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by Professor Nathan Alexander. This site will serve as a companion to our Canvas site and support you with questions relevant to teaching mathematics. Let me know if you see any errors.\n\nWeekly Schedule\n\n\n\nWeek\nDates\nTopics\nAssignments \\(\\textit{\\&}\\) Notes\n\n\n\n\n1\nAug 17  Aug 19\nIntroduction to EDUC 315Course overview; number line; sets of numbers\nMathematical coloring book\n\n\n2\nAug 24  Aug 26\nModule 1: Language of MathematicsSets, union, intersection; continuation\nNumber linesQuiz 1\n\n\n3\nAug 31  Sep 2\nModule 1: Logic and proofsCRA approach\n\n\n\n4\nSep 7*  Sep 9\nModule 2: Foundations of Mathematical ThinkingPolya’s 4-step method\n*No class: Labor DayQuiz 2\n\n\n5\nSep 14  Sep 16\nExcursion 1: National Portrait GalleryMath activity rotations\nMath corner activity\n\n\n6\nSep 21  Sep 23\nModule 3: PropertiesProperties and proof\n\n\n\n7\nSep 28  Sep 30\nModule 3: OperationsMathematical thinking\nFraction tiles activity\n\n\n8\nOct 5  Oct 7\nModule 3: Operations\nQuiz 3\n\n\n9\nOct 12*  Oct 14\nMid-semester check-in\n*No class: Indigenous Peoples’ Day\n\n\n10\nOct 19  Oct 21\nModule 4: Strands of proficiencyMidterm exam\nMidterm exam\n\n\n11\nOct 26  Oct 28\nModule 4: Strands of proficiency\nDetailed mathematics unit outline\n\n\n12\nNov 2  Nov 4\nModule 5: Lesson planning\nQuiz 4\n\n\n13\nNov 9  Nov 11\nModule 5: Lesson planning  Museum trip: NMAAHC\n\n\n\n14\nNov 16  Nov 18\nModule 6: Data science, statistics and probabilityLeveraging real-world data\nQuiz 5\n\n\n15\nNov 23  Nov 25\nClosing: Classgiving Potluck & reflectionsThanksgiving (No class)\nHistorical STEM figure\n\n\n16\nNov 30  Dec 2\nReading period (no class)\nField placement log due",
+    "text": "This is the companion site for EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by Professor Nathan Alexander. This site will serve as a companion to our Canvas site and support you with questions relevant to teaching mathematics. Let me know if you see any errors.\n\nWeekly Schedule\n\n\n\nWeek\nDates\nTopics\nAssignments \\(\\textit{\\&}\\) Notes\n\n\n\n\n1\nAug 17  Aug 19\nIntroduction to EDUC 315Course overview; number line; sets of numbers\nMathematical coloring book\n\n\n2\nAug 24  Aug 26\nModule 1: Language of MathematicsSets, union, intersection; continuation\nNumber linesQuiz 1\n\n\n3\nAug 31  Sep 2\nModule 1: Logic and proofsCRA approach\n\n\n\n4\nSep 7*  Sep 9\nModule 2: Foundations of Mathematical ThinkingPolya’s 4-step method\n*No class: Labor DayQuiz 2\n\n\n5\nSep 14  Sep 16\nExcursion 1: National Portrait GalleryMath activity rotations\nMath corner activity\n\n\n6\nSep 21  Sep 23\nModule 3: PropertiesProperties and proof\n\n\n\n7\nSep 28  Sep 30\nModule 3: OperationsMathematical thinking\nFraction tiles activity\n\n\n8\nOct 5  Oct 7\nModule 3: Operations\nQuiz 3\n\n\n9\nOct 12*  Oct 14\nMid-semester check-in\n*No class: Indigenous Peoples’ Day\n\n\n10\nOct 19  Oct 21\nModule 4: Strands of proficiencyMidterm exam\nMidterm exam\n\n\n11\nOct 26  Oct 28\nModule 4: Strands of proficiency\nDetailed mathematics unit outline\n\n\n12\nNov 2  Nov 4\nModule 5: Lesson planning\nQuiz 4\n\n\n13\nNov 9  Nov 11\nMuseum trip: NMAAHC  Module 5: Lesson planning\n\n\n\n14\nNov 16  Nov 18\nModule 6: Data science, statistics and probabilityLeveraging real-world data\nQuiz 5\n\n\n15\nNov 23  Nov 25\nClosing: Classgiving Potluck & reflectionsThanksgiving (No class)\nHistorical STEM figure\n\n\n16\nNov 30  Dec 2\nReading period (no class)\nField placement log due",
     "crumbs": [
       "Course information",
       "Calendar"

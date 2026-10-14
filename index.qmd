@@ -21,7 +21,7 @@ This is the companion site for EDUC 315: Principles of Teaching Mathematics and 
 | 10 | Oct 19 <br> Oct 21 | [**Module 4: Strands of proficiency**](modules/module04.qmd)<br>Midterm exam | Midterm exam |
 | 11 | Oct 26 <br> Oct 28 | [**Module 4: Strands of proficiency**](modules/module04.qmd) | Detailed mathematics unit outline|
 | 12 | Nov 2 <br> Nov 4 | [**Module 5: Lesson planning**](modules/module05.qmd) | <br>Quiz 4 |
-| 13 | Nov 9 <br> Nov 11 | [**Module 5: Lesson planning** <br> **Museum trip: NMAAHC**](modules/module05.qmd) |  |
+| 13 | Nov 9 <br> Nov 11 | [**Museum trip: NMAAHC** <br> **Module 5: Lesson planning** ](modules/module05.qmd) |  |
 | 14 | Nov 16 <br> Nov 18 | [**Module 6: Data science, statistics and probability**](modules/module06.qmd)<br>Leveraging real-world data | Quiz 5 |
 | 15 | Nov 23 <br> Nov 25 | Closing: Classgiving Potluck & reflections<br>Thanksgiving (No class) | Historical STEM figure |
 | 16 | Nov 30 <br> Dec 2 | Reading period (no class) | Field placement log due |
